@@ -11,6 +11,16 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/post/bmus/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/post/tmux/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/post/prj701-12/</loc>
     <lastmod>2018-10-24T00:00:00+00:00</lastmod>
   </url>
@@ -87,6 +97,12 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/tags/backups/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/categories/</loc>
     <priority>0</priority>
   </url>
@@ -103,6 +119,12 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/tags/development/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/tags/ftp/</loc>
     <lastmod>2018-09-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -110,12 +132,19 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/golang/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oglinuk.github.io/tags/introduction/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/tags/linux/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -139,7 +168,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/</loc>
-    <lastmod>2018-10-24T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -151,7 +180,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/post/</loc>
-    <lastmod>2018-10-24T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -193,6 +222,12 @@
   <url>
     <loc>https://oglinuk.github.io/tags/</loc>
     <lastmod>2018-10-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/tags/terminal-multiplexer/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
