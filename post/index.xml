@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Ponte Posterum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oglinuk.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Res701 0</title>
+      <link>https://oglinuk.github.io/post/res701-0/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/res701-0/</guid>
+      <description>Research 701 ~ Day 1 Res701 is another required class for my bachelor of IT course. This class is based around academic research, where we look at/review academic papers/research methodologies and write blogs about them. Blogs have never been my strong point so I am going to put 110% effort into ensuring consistentcy for this class. I already know what area I am going to be focusing on (data science, machine learning and deep learning), so in that regard I am already ahead of the curve.</description>
+    </item>
     
     <item>
       <title>Web701 1</title>
