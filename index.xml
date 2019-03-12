@@ -6,7 +6,7 @@
     <description>Recent content on Ponte Posterum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oglinuk.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -30,12 +30,41 @@
     </item>
     
     <item>
+      <title>Res701 1</title>
+      <link>https://oglinuk.github.io/post/res701-1/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/res701-1/</guid>
+      <description>Today in class the tutor had a set of questions that he wanted us to break up into groups and answer. Reflecting on these questions has only increased the amount questions rather than provide truthful or even a slightly understandable answers. In saying that they are also extremely interesting questions that have a much deeper meaning than anyone could ever percieve or come to understand. These are the answers that resulted after refined discussion internally and with the group I was with.</description>
+    </item>
+    
+    <item>
+      <title>Web701 3</title>
+      <link>https://oglinuk.github.io/post/web701-3/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/web701-3/</guid>
+      <description>Web Development 701 ~ Security Though web development is not a main focus (or at least front end), I don&amp;rsquo;t spend much time investigating many web technologies/concepts. That being said computer security is a general topic that interests me, and learning the subset internet security is something that one should know. Internet security involves WWW (world wide web), browser, and networking security. Since the internet is insecure, internet securities &amp;ldquo;objective is to establish rules and measures to use against attacks over the Internet.</description>
+    </item>
+    
+    <item>
+      <title>Web701 2</title>
+      <link>https://oglinuk.github.io/post/web701-2/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/web701-2/</guid>
+      <description>Web Development 701 ~ Comparison of frameworks and CMS Todays class covers a comparison of frameworks and CMS. The tutor gave access to an online document with the following questions. We split up into groups, so I will review the answers my group (Bryce, Finn, Deja, and myself).
+What is a CMS? A platform that allows non-developers to manage the content of a website
+How many are there? Over 9000</description>
+    </item>
+    
+    <item>
       <title>Res701 0</title>
       <link>https://oglinuk.github.io/post/res701-0/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/post/res701-0/</guid>
-      <description>Research 701 ~ Day 1 Res701 is another required class for my bachelor of IT course. This class is based around academic research, where we look at/review academic papers/research methodologies and write blogs about them. Blogs have never been my strong point so I am going to put 110% effort into ensuring consistentcy for this class. I already know what area I am going to be focusing on (data science, machine learning and deep learning), so in that regard I am already ahead of the curve.</description>
+      <description>Research 701 ~ Day 0 Res701 is another required class for my bachelor of IT course. This class is based around academic research, where we look at/review academic papers/research methodologies and write blogs about them. Blogs have never been my strong point so I am going to put 110% effort into ensuring consistentcy for this class. I already know what area I am going to be focusing on (data science, machine learning and deep learning), so in that regard I am already ahead of the curve.</description>
     </item>
     
     <item>
@@ -53,7 +82,7 @@
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/post/web701-0/</guid>
-      <description>Web Development 701 Web development is a required class for my major (software development) in the bachelor of IT. The 701 class is based around CMS (content management systems) frameworks, similar to websites like wordpress or wix. However, in this class we have to install and deploy a CMS framework. A CMS is essentially a platform which allows a user to change the website without touching any code, usually the form of drag and drops.</description>
+      <description>Web Development 701 Web development is a required class for my major (software development) in the bachelor of IT. The 701 class is based around information architecture, CMS (content management systems), frameworks and website security. A CMS is essentially a platform which allows a user to change the website without touching any code, usually the form of drag and drops. I don&amp;rsquo;t program using PHP at all, and don&amp;rsquo;t really have any interest in web development so I am going to see if I can use Odoo, since it has a website module that is a CMS.</description>
     </item>
     
     <item>
@@ -128,6 +157,24 @@ The first speaker of the day was Kingseley, the event organizer and another favo
       
       <guid>https://oglinuk.github.io/post/bmus/</guid>
       <description>Bmus ~ Back Me Up Scotty Taking backups of devices is something that more often than not people don&amp;rsquo;t do, and this includes myself. Prior to my bachelor&amp;rsquo;s I never took backups or even thought about them. Looking back I reee internally everytime I think about how much I would have lost if something had happened to my laptops or desktops over the years. Don&amp;rsquo;t be like the 2015 me, take regular backups&amp;hellip; Ever since a friend of mine, Nick got me into Linux I have been learning new things everyday, from built in commands, to the various things that can be done from the terminal.</description>
+    </item>
+    
+    <item>
+      <title>Inotebook</title>
+      <link>https://oglinuk.github.io/post/inotebook/</link>
+      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/inotebook/</guid>
+      <description>I(llusionists) Notebook If you have seen the Prestige, then this program will look familiar. Inotebook is a personal notebook that is encrypted with the vigenere cipher. A vigenere cipher is similar to a caesar cipher (where characters are shifted by a certain offset), but the vigenere cipher uses a key to determine the offset rather than a number. The key is repeated to the length of the message, then each character of the message is offset by the character of the key.</description>
+    </item>
+    
+    <item>
+      <title>Partitioning</title>
+      <link>https://oglinuk.github.io/post/partitioning/</link>
+      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/partitioning/</guid>
+      <description>Partitioning Partitioning? No not mathematics partitions, computer partitions. More specifically hardware partitions (in my case a microSD card). I am officially put off GUIs and am taking a hiatus from them. My raspberry pi&amp;rsquo;s microSDD card isn&amp;rsquo;t being used at the moment, so I am formatting it to be used as storage for pcap files that I am capturing on my network. Perfect time to learn how to partition drives from the terminal!</description>
     </item>
     
     <item>

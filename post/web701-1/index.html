@@ -143,7 +143,11 @@
     
     <a href="https://oglinuk.github.io/tags/web701"><kbd class="item-tag">Web701</kbd></a>
     
+    <a href="https://oglinuk.github.io/tags/information-architecture"><kbd class="item-tag">Information architecture</kbd></a>
+    
     <a href="https://oglinuk.github.io/tags/cms"><kbd class="item-tag">CMS</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/frameworks"><kbd class="item-tag">Frameworks</kbd></a>
     
 
 </div>
@@ -179,7 +183,7 @@
 
 <p>Now with the ubuntu virtual machine fully up and running its time to install the softwares and frameworks. Before I can install anything I need to do the classic <code>sudo apt update &amp;&amp; sudo apt upgrade</code>. The first software I am going to install is XAMPP. After a quick duckduckgo search, I found a <a href="https://askubuntu.com/a/904604">post</a> on askubuntu. The steps are as follows&hellip;</p>
 
-<p><code>sudo wget https://www.apachefriends.org/xampp-files/5.6.20/xampp-linux-x64-5.6.20-0-installer.run</code></p>
+<p><code>wget https://www.apachefriends.org/xampp-files/5.6.20/xampp-linux-x64-5.6.20-0-installer.run</code></p>
 
 <p><code>sudo su</code></p>
 
@@ -191,11 +195,11 @@
 
 <p>Next up is composer, which again after a quick ddg search I found a <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-16-04">post</a> by digital ocean. The steps are as follows&hellip;</p>
 
-<p><code>sudo apt install curl php-cli php-mbstring</code></p>
+<p><code>apt install curl php-cli php-mbstring</code></p>
 
-<p><code>sudo curl -sS https://getcomposer.org/installer -o composer-setup.php</code></p>
+<p><code>curl -sS https://getcomposer.org/installer -o composer-setup.php</code></p>
 
-<p><code>sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer</code></p>
+<p><code>php composer-setup.php --install-dir=/usr/local/bin --filename=composer</code></p>
 
 <p>Also easy and done.</p>
 
@@ -203,37 +207,37 @@
 
 <p>First is laravel. A quick ddg resulted in a <a href="https://askubuntu.com/a/767970">post</a> on askubuntu. The steps are as follows&hellip;</p>
 
-<p><code>sudo apt install tasksel</code></p>
+<p><code>apt install tasksel</code></p>
 
-<p><code>sudo tasksel install lamp-server</code></p>
+<p><code>tasksel install lamp-server</code></p>
 
-<p><code>sudo apt install curl php-curl php-mcrypt php-mbstring php-gettext</code></p>
+<p><code>apt install curl php-curl php-mcrypt php-mbstring php-gettext</code></p>
 
-<p><code>sudo phpenmod mcrypt</code></p>
+<p><code>phpenmod mcrypt</code></p>
 
-<p><code>sudo phpenmod mbstring</code></p>
+<p><code>phpenmod mbstring</code></p>
 
-<p><code>sudo a2enmod rewrite</code></p>
+<p><code>a2enmod rewrite</code></p>
 
-<p><code>sudo systemctl restart apache2</code></p>
+<p><code>systemctl restart apache2</code></p>
 
-<p><code>sudo curl -sS https://getcomposer.org/installer | sudo php</code></p>
+<p><code>curl -sS https://getcomposer.org/installer |  php</code></p>
 
-<p><code>sudo mv composer.phar /usr/local/bin/composer</code></p>
+<p><code>mv composer.phar /usr/local/bin/composer</code></p>
 
-<p><code>sudo apt install phpmyadmin</code></p>
+<p><code>apt install phpmyadmin</code></p>
 
 <p><code>cd /var/www/html</code></p>
 
-<p><code>sudo composer create-project laravel/laravel work --prefer-dist</code></p>
+<p><code>composer create-project laravel/laravel work --prefer-dist</code></p>
 
-<p><code>sudo chmod -R 777 work</code></p>
+<p><code>chmod -R 777 work</code></p>
 
 <p>Im not going to go much further since we just have to install the framework. Bit painful but nothing too bad.</p>
 
 <p>Now for meteor&hellip; Again a quick ddg search resulted in a <a href="https://askubuntu.com/a/940483">post</a> on askubuntu. The steps are as follows&hellip;</p>
 
-<p><code>sudo curl -o new_meteor https://install.meteor.com/</code></p>
+<p><code>curl -o new_meteor https://install.meteor.com/</code></p>
 
 <p><code>bash ./new_meteor</code></p>
 
@@ -258,12 +262,58 @@
     
     
 
+    <h4><a href="/post/web701-3/">Web701 3</a></h4>
+    <h5>March 5, 2019</h5>
+    
+    <a href="https://oglinuk.github.io/tags/web701"><kbd class="item-tag">Web701</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/cms"><kbd class="item-tag">CMS</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/frameworks"><kbd class="item-tag">Frameworks</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/information-architecture"><kbd class="item-tag">Information architecture</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/security"><kbd class="item-tag">Security</kbd></a>
+    
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/web701-2/">Web701 2</a></h4>
+    <h5>March 4, 2019</h5>
+    
+    <a href="https://oglinuk.github.io/tags/web701"><kbd class="item-tag">Web701</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/information-architecture"><kbd class="item-tag">Information architecture</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/cms"><kbd class="item-tag">CMS</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/frameworks"><kbd class="item-tag">Frameworks</kbd></a>
+    
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
     <h4><a href="/post/web701-0/">Web701 0</a></h4>
     <h5>February 25, 2019</h5>
     
     <a href="https://oglinuk.github.io/tags/web701"><kbd class="item-tag">Web701</kbd></a>
     
-    <a href="https://oglinuk.github.io/tags/cms"><kbd class="item-tag">CMS</kbd></a>
+    <a href="https://oglinuk.github.io/tags/information-architecture"><kbd class="item-tag">Information architecture</kbd></a>
     
 
 </div>
@@ -288,7 +338,7 @@
             return;
         }
         var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "username" + '.disqus.com/embed.js';
+        s.src = '//' + "OGLinuk" + '.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();

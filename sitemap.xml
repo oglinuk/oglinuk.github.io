@@ -11,6 +11,21 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/post/res701-1/</loc>
+    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/post/web701-3/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/post/web701-2/</loc>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/post/res701-0/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url>
@@ -62,6 +77,16 @@
   
   <url>
     <loc>https://oglinuk.github.io/post/bmus/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/post/inotebook/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/post/partitioning/</loc>
     <lastmod>2018-11-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -159,13 +184,19 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/tags/belief/</loc>
+    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oglinuk.github.io/tags/cms/</loc>
-    <lastmod>2019-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -177,12 +208,25 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/cryptography/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oglinuk.github.io/tags/development/</loc>
     <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/tags/fdisk/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/tags/frameworks/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -199,8 +243,26 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/tags/information-architecture/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/tags/introduction/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/tags/knowing/</loc>
+    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/tags/knowledge/</loc>
+    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -229,14 +291,26 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/tags/ones/</loc>
+    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/tags/open-source/</loc>
     <lastmod>2018-10-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/tags/partitioning/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/</loc>
-    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -248,7 +322,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/post/</loc>
-    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -282,8 +356,14 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/tags/python3/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/tags/res701/</loc>
-    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -306,6 +386,12 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/tags/security/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/tags/self-study/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -318,14 +404,32 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/tags/terminal/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/tags/terminal-multiplexer/</loc>
     <lastmod>2018-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/tags/true/</loc>
+    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/tags/vigenere-cipher/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/tags/web701/</loc>
-    <lastmod>2019-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -6,10 +6,19 @@
     <description>Recent content in Res701 on Ponte Posterum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oglinuk.github.io/tags/res701/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Res701 1</title>
+      <link>https://oglinuk.github.io/post/res701-1/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/res701-1/</guid>
+      <description>Today in class the tutor had a set of questions that he wanted us to break up into groups and answer. Reflecting on these questions has only increased the amount questions rather than provide truthful or even a slightly understandable answers. In saying that they are also extremely interesting questions that have a much deeper meaning than anyone could ever percieve or come to understand. These are the answers that resulted after refined discussion internally and with the group I was with.</description>
+    </item>
     
     <item>
       <title>Res701 0</title>
@@ -17,7 +26,7 @@
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/post/res701-0/</guid>
-      <description>Research 701 ~ Day 1 Res701 is another required class for my bachelor of IT course. This class is based around academic research, where we look at/review academic papers/research methodologies and write blogs about them. Blogs have never been my strong point so I am going to put 110% effort into ensuring consistentcy for this class. I already know what area I am going to be focusing on (data science, machine learning and deep learning), so in that regard I am already ahead of the curve.</description>
+      <description>Research 701 ~ Day 0 Res701 is another required class for my bachelor of IT course. This class is based around academic research, where we look at/review academic papers/research methodologies and write blogs about them. Blogs have never been my strong point so I am going to put 110% effort into ensuring consistentcy for this class. I already know what area I am going to be focusing on (data science, machine learning and deep learning), so in that regard I am already ahead of the curve.</description>
     </item>
     
   </channel>
