@@ -184,12 +184,6 @@
   </url>
   
   <url>
-    <loc>https://oglinuk.github.io/tags/belief/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://oglinuk.github.io/categories/</loc>
     <priority>0</priority>
   </url>
@@ -215,6 +209,12 @@
   <url>
     <loc>https://oglinuk.github.io/tags/development/</loc>
     <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/tags/epistemology/</loc>
+    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -292,6 +292,12 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/ones/</loc>
+    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/tags/ontology/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -412,12 +418,6 @@
   <url>
     <loc>https://oglinuk.github.io/tags/terminal-multiplexer/</loc>
     <lastmod>2018-11-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://oglinuk.github.io/tags/true/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
