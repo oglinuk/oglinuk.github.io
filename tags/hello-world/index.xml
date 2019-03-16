@@ -18,7 +18,16 @@
       
       <guid>https://oglinuk.github.io/post/hello-rust/</guid>
       <description>Why Rust? The first question anyone might ask themselves when they read the title. This is an extremely valid question, since why if one could learn something as simple as Python, would one want to learn a language like Rust? I know this because that was the first question that I asked. The answer is not entirely formulated as I still learn new and exciting things everyday.
-What I can say is that for one Rust is fast.</description>
+The why&amp;rsquo;s What I can say is that for one Rust is fast.</description>
+    </item>
+    
+    <item>
+      <title>hello_self.me</title>
+      <link>https://oglinuk.github.io/post/hello-world/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/hello-world/</guid>
+      <description>Hello World! What better way to start a blog off than the classical way of starting in programming ~ the ol&amp;rsquo; Hello World! My name is Daniel, I go by OGLinuk as my online handler, and I have a raging passion for IT. Technology has been apart of my life for as long as I can remember, starting with an old windows 98 desktop and an N64. This is where my passion for gaming began, with classics like 007 golden eye, banjo-kazooie, diddy kong racing, donkey kong 64, legoland, and so many more.</description>
     </item>
     
   </channel>

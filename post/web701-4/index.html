@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Frameworks</title>
+        <title>Web701 4</title>
         
         <style>
 
@@ -61,9 +61,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.54.0" />
         
-        <link href="https://oglinuk.github.io/tags/frameworks/index.xml" rel="alternate" type="application/rss+xml" title="Ponte Posterum" />
-        <link href="https://oglinuk.github.io/tags/frameworks/index.xml" rel="feed" type="application/rss+xml" title="Ponte Posterum" />
-        
 
         
     </head>
@@ -83,7 +80,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Frameworks</a>
+                    <a class="navbar-brand visible-xs" href="#">Web701 4</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -132,9 +129,7 @@
 
 <main>
 
-    <h2>Frameworks</h2>
-
-     <div class="item">
+    <div class="item">
 
     
     
@@ -160,7 +155,76 @@
     
 
 </div>
-  <div class="item">
+
+
+    <br> <div class="text-justify">
+
+<h1 id="web-development-701-s-ecure-sh-ell">Web Development 701 ~ <strong>S</strong>(ecure) <strong>SH</strong>(ell)</h1>
+
+<p>Today in Web701 we learned about SSH so that we can access a remote server for hosting out web technologies on. I have had experience with SSH before since that is how I connect to my raspberry pi&rsquo;s and my onion omega, though I prefer the terminal SSH cli to a GUI like putty. Yet another advantage of Linux is that distributions come with SSH pre-installed. An example of SSH through the terminal looks like <code>ssh &lt;username&gt;@&lt;domain&gt;</code>.</p>
+
+<p>Then it will ask for a password, and boom its that easy.</p>
+
+<p>Once logged into the server we had to make sure that our default PHP applications were working by visiting <em>&lt;domain&gt;/~&lt;username&gt;</em>. If the application is working/running it should return a page that gives us something like <code>PHP Version 7.3.3-1+ubuntu16.04.1+deb.sury.org+1</code> and a whole bunch of other information. This worked for me so onto the next thing, which is to access our MySQL database. Before we access the database, we have to write a quick bit of sql to test with.
+The test sql can be found below.</p>
+
+<pre><code class="language-SQL">DROP &lt;username&gt;db;
+CREATE &lt;username&gt;db;
+USE &lt;username&gt;db;
+
+DROP TABLE Test;
+
+CREATE TABLE Test (
+    Name Varchar(50)
+);
+
+INSERT INTO Test(Name)
+VALUES (&quot;This&quot;),
+        (&quot;is&quot;),
+        (&quot;a&quot;),
+        (&quot;test&quot;);
+</code></pre>
+
+<p>Our tutor suggested running the command below with <code>&gt; test.sql</code> on the end but it hung when I attempted so I will be running the SQL script from within MySQL. After a quick <a href="https://duckduckgo.com/?q=run+sql+file+with+mysql+linux&amp;t=ffab&amp;ia=web">ddg search</a> I found out how to do so.</p>
+
+<p>To access our MySQL database, we had to type the command <code>mysql -u &lt;first 3 letters of username&gt; -p</code> and provide the corresponding password.</p>
+
+<p>Now to run the script we enter the command <code>source &lt;path to sql file&gt;</code>. The result looks something like below.</p>
+
+<pre><code>mysql&gt; source ./test.sql
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 4 rows affected (0.01 sec)
+Records: 4  Duplicates: 0  Warnings: 0
+
++------+
+| Name |
++------+
+| This |
+| is   |
+| a    |
+| test |
++------+
+4 rows in set (0.00 sec)
+</code></pre>
+
+<p>We also discussed <a href="https://en.wikipedia.org/wiki/Secure_copy"><strong>S</strong>(ecure)<strong>C</strong>(opy)<strong>P</strong>(rotocol)</a> for transferring files from one computer to the remote server. I have also had some previous experience with SCP as I use it for when I am transferring files between my laptop and my raspberry pi&rsquo;s or onion omega devices. Examples of how to execute SCP from the terminal can be found <a href="http://www.hypexr.org/linux_scp_help.php">here</a>. I am not going to provide an example as there are multiple ways to structure a SCP command, so I suggest you refer to the link.</p>
+</div>
+
+    
+    
+
+    
+
+        <h4 class="page-header">Related</h4>
+
+         <div class="item">
 
     
     
@@ -230,9 +294,36 @@
 </div>
  
 
+    
+
+    
+
+        <h4 class="page-header">Comments</h4>
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "oglinuk-github-io.disqus.com" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+
 </main>
-
-
 
         <footer>
 

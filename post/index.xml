@@ -18,7 +18,16 @@
       
       <guid>https://oglinuk.github.io/post/hello-rust/</guid>
       <description>Why Rust? The first question anyone might ask themselves when they read the title. This is an extremely valid question, since why if one could learn something as simple as Python, would one want to learn a language like Rust? I know this because that was the first question that I asked. The answer is not entirely formulated as I still learn new and exciting things everyday.
-What I can say is that for one Rust is fast.</description>
+The why&amp;rsquo;s What I can say is that for one Rust is fast.</description>
+    </item>
+    
+    <item>
+      <title>Web701 4</title>
+      <link>https://oglinuk.github.io/post/web701-4/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/web701-4/</guid>
+      <description>Web Development 701 ~ S(ecure) SH(ell) Today in Web701 we learned about SSH so that we can access a remote server for hosting out web technologies on. I have had experience with SSH before since that is how I connect to my raspberry pi&amp;rsquo;s and my onion omega, though I prefer the terminal SSH cli to a GUI like putty. Yet another advantage of Linux is that distributions come with SSH pre-installed.</description>
     </item>
     
     <item>
@@ -296,7 +305,7 @@ The first speaker of the day was Kingseley, the event organizer and another favo
     </item>
     
     <item>
-      <title>Hello World</title>
+      <title>hello_self.me</title>
       <link>https://oglinuk.github.io/post/hello-world/</link>
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
       
