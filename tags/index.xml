@@ -41,7 +41,7 @@
     <item>
       <title>Cms</title>
       <link>https://oglinuk.github.io/tags/cms/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/cms/</guid>
       <description></description>
@@ -75,6 +75,15 @@
     </item>
     
     <item>
+      <title>Docker</title>
+      <link>https://oglinuk.github.io/tags/docker/</link>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Epistemology</title>
       <link>https://oglinuk.github.io/tags/epistemology/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
@@ -95,7 +104,7 @@
     <item>
       <title>Frameworks</title>
       <link>https://oglinuk.github.io/tags/frameworks/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/frameworks/</guid>
       <description></description>
@@ -131,7 +140,7 @@
     <item>
       <title>Information Architecture</title>
       <link>https://oglinuk.github.io/tags/information-architecture/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/information-architecture/</guid>
       <description></description>
@@ -179,6 +188,15 @@
       <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mysql</title>
+      <link>https://oglinuk.github.io/tags/mysql/</link>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/mysql/</guid>
       <description></description>
     </item>
     
@@ -336,9 +354,18 @@
     </item>
     
     <item>
+      <title>Scp</title>
+      <link>https://oglinuk.github.io/tags/scp/</link>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/scp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Security</title>
       <link>https://oglinuk.github.io/tags/security/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/security/</guid>
       <description></description>
@@ -356,7 +383,7 @@
     <item>
       <title>Ssh</title>
       <link>https://oglinuk.github.io/tags/ssh/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/ssh/</guid>
       <description></description>
@@ -390,9 +417,18 @@
     </item>
     
     <item>
+      <title>Virtualbox</title>
+      <link>https://oglinuk.github.io/tags/virtualbox/</link>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/virtualbox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Web701</title>
       <link>https://oglinuk.github.io/tags/web701/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/web701/</guid>
       <description></description>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Virtualbox on Ponte Posterum</title>
+    <link>https://oglinuk.github.io/tags/virtualbox/</link>
+    <description>Recent content in Virtualbox on Ponte Posterum</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://oglinuk.github.io/tags/virtualbox/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Web701 5</title>
+      <link>https://oglinuk.github.io/post/web701-5/</link>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/web701-5/</guid>
+      <description>Web701 5 ~ Virtual Machines and Docker Class was mainly reviewing the mock projects, so this blog is going to be dedicated to the virtual machines that I use on virtualbox. For the second milestone we have to describe three frameworks, two of which were prompted in class; laravel (PHP), and meteor (NodeJS). Its times like these that I am thankful for virtual machines. Im not sure how difficult these were to install and get running on windows machines and I dont care to.</description>
+    </item>
+    
+    <item>
+      <title>Web701 4</title>
+      <link>https://oglinuk.github.io/post/web701-4/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/web701-4/</guid>
+      <description>Web Development 701 ~ S(ecure) SH(ell) Today in Web701 we learned about SSH so that we can access a remote server for hosting out web technologies on. I have had experience with SSH before since that is how I connect to my raspberry pi&amp;rsquo;s and my onion omega, though I prefer the terminal SSH cli to a GUI like putty. Yet another advantage of Linux is that distributions come with SSH pre-installed.</description>
+    </item>
+    
+    <item>
+      <title>Web701 3</title>
+      <link>https://oglinuk.github.io/post/web701-3/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/web701-3/</guid>
+      <description>Web Development 701 ~ Security Though web development is not a main focus (or at least front end), I don&amp;rsquo;t spend much time investigating many web technologies/concepts. That being said computer security is a general topic that interests me, and learning the subset internet security is something that one should know. Internet security involves WWW (world wide web), browser, and networking security. Since the internet is insecure, internet securities &amp;ldquo;objective is to establish rules and measures to use against attacks over the Internet.</description>
+    </item>
+    
+    <item>
+      <title>Web701 2</title>
+      <link>https://oglinuk.github.io/post/web701-2/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/web701-2/</guid>
+      <description>Web Development 701 ~ Comparison of frameworks and CMS Todays class covers a comparison of frameworks and CMS. The tutor gave access to an online document with the following questions. We split up into groups, so I will review the answers my group (Bryce, Finn, Deja, and myself).
+What is a CMS? A platform that allows non-developers to manage the content of a website
+How many are there? Over 9000</description>
+    </item>
+    
+    <item>
+      <title>Web701 1</title>
+      <link>https://oglinuk.github.io/post/web701-1/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/web701-1/</guid>
+      <description>Web Development 701 ~ Day 2 Today in web701 we covered the frameworks and softwares that are going to be used for the assessment. The frameworks are laravel (an open-source PHP web framework) and meteor (an open-source NodeJS web framework). The softwares are XAMPP (an open-source web server) and composer (a dependancy manager for PHP). I am going to be installing these on a ubuntu virtual machine, so the first thing I need to do is install virtualbox on my manjaro partition.</description>
+    </item>
+    
+  </channel>
+</rss>

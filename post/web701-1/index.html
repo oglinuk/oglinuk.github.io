@@ -149,6 +149,8 @@
     
     <a href="https://oglinuk.github.io/tags/frameworks"><kbd class="item-tag">Frameworks</kbd></a>
     
+    <a href="https://oglinuk.github.io/tags/virtualbox"><kbd class="item-tag">VirtualBox</kbd></a>
+    
 
 </div>
 
@@ -193,25 +195,17 @@
 
 <p>Easy and done.</p>
 
-<p>Next up is composer, which again after a quick ddg search I found a <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-16-04">post</a> by digital ocean. The steps are as follows&hellip;</p>
-
-<p><code>apt install curl php-cli php-mbstring</code></p>
-
-<p><code>curl -sS https://getcomposer.org/installer -o composer-setup.php</code></p>
-
-<p><code>php composer-setup.php --install-dir=/usr/local/bin --filename=composer</code></p>
-
-<p>Also easy and done.</p>
+<hr>
 
 <p>Next is the frameworks; laravel and meteor.</p>
 
 <p>First is laravel. A quick ddg resulted in a <a href="https://askubuntu.com/a/767970">post</a> on askubuntu. The steps are as follows&hellip;</p>
 
-<p><code>apt install tasksel</code></p>
+<p><code>sudo apt install tasksel</code></p>
 
 <p><code>tasksel install lamp-server</code></p>
 
-<p><code>apt install curl php-curl php-mcrypt php-mbstring php-gettext</code></p>
+<p><code>sudo apt install curl php-curl php-mcrypt php-mbstring php-gettext</code></p>
 
 <p><code>phpenmod mcrypt</code></p>
 
@@ -225,15 +219,17 @@
 
 <p><code>mv composer.phar /usr/local/bin/composer</code></p>
 
-<p><code>apt install phpmyadmin</code></p>
+<p><code>sudo apt install phpmyadmin</code></p>
 
 <p><code>cd /var/www/html</code></p>
 
-<p><code>composer create-project laravel/laravel work --prefer-dist</code></p>
+<p><code>composer create-project laravel/laravel &lt;project_name&gt; --prefer-dist</code></p>
 
-<p><code>chmod -R 777 work</code></p>
+<p><code>chmod -R 777 &lt;project_name&gt;</code></p>
 
-<p>Im not going to go much further since we just have to install the framework. Bit painful but nothing too bad.</p>
+<p>To serve the website on localhost change to the project directory then enter <code>php artisan serve</code>.</p>
+
+<hr>
 
 <p>Now for meteor&hellip; Again a quick ddg search resulted in a <a href="https://askubuntu.com/a/940483">post</a> on askubuntu. The steps are as follows&hellip;</p>
 
@@ -243,7 +239,7 @@
 
 <p>I&rsquo;m liking meteor more already. Easy and done.</p>
 
-<p>Thats it! Now the virtual machine is ready for web701.</p>
+<p>To create a new meteor project via the cli, simply enter the command <code>meteor create &lt;project_name&gt;</code>. Then to serve the website, change into the project directory and enter the command <code>meteor</code>.</p>
 </div>
 
     
@@ -254,6 +250,40 @@
         <h4 class="page-header">Related</h4>
 
          <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/web701-5/">Web701 5</a></h4>
+    <h5>March 12, 2019</h5>
+    
+    <a href="https://oglinuk.github.io/tags/web701"><kbd class="item-tag">Web701</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/cms"><kbd class="item-tag">CMS</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/frameworks"><kbd class="item-tag">Frameworks</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/information-architecture"><kbd class="item-tag">Information architecture</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/virtualbox"><kbd class="item-tag">VirtualBox</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/security"><kbd class="item-tag">Security</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/ssh"><kbd class="item-tag">SSH</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/mysql"><kbd class="item-tag">MySQL</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/scp"><kbd class="item-tag">SCP</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/docker"><kbd class="item-tag">Docker</kbd></a>
+    
+
+</div>
+  <div class="item">
 
     
     
@@ -273,9 +303,15 @@
     
     <a href="https://oglinuk.github.io/tags/information-architecture"><kbd class="item-tag">Information architecture</kbd></a>
     
+    <a href="https://oglinuk.github.io/tags/virtualbox"><kbd class="item-tag">VirtualBox</kbd></a>
+    
     <a href="https://oglinuk.github.io/tags/security"><kbd class="item-tag">Security</kbd></a>
     
     <a href="https://oglinuk.github.io/tags/ssh"><kbd class="item-tag">SSH</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/mysql"><kbd class="item-tag">MySQL</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/scp"><kbd class="item-tag">SCP</kbd></a>
     
 
 </div>
@@ -299,29 +335,9 @@
     
     <a href="https://oglinuk.github.io/tags/information-architecture"><kbd class="item-tag">Information architecture</kbd></a>
     
+    <a href="https://oglinuk.github.io/tags/virtualbox"><kbd class="item-tag">VirtualBox</kbd></a>
+    
     <a href="https://oglinuk.github.io/tags/security"><kbd class="item-tag">Security</kbd></a>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/web701-2/">Web701 2</a></h4>
-    <h5>March 4, 2019</h5>
-    
-    <a href="https://oglinuk.github.io/tags/web701"><kbd class="item-tag">Web701</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/information-architecture"><kbd class="item-tag">Information architecture</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/cms"><kbd class="item-tag">CMS</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/frameworks"><kbd class="item-tag">Frameworks</kbd></a>
     
 
 </div>
@@ -346,7 +362,7 @@
             return;
         }
         var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "oglinuk-github-io.disqus.com" + '.disqus.com/embed.js';
+        s.src = '//' + "oglinuk-github-io" + '.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();
