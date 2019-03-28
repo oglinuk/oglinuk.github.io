@@ -42,7 +42,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javascript.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/mysql.min.js"></script> 
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/rust.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javascript.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/mysql.min.js"></script> 
 
     <script>hljs.initHighlightingOnLoad();</script>
 
@@ -111,8 +111,6 @@
                             
                                 <li class="navbar-icon"><a href="https://github.com/oglinuk/"><i class="fa fa-github"></i></a></li>
                             
-                                <li class="navbar-icon"><a href="https://twitter.com/oglinuk/"><i class="fa fa-twitter"></i></a></li>
-                            
                                 <li class="navbar-icon"><a href="https://www.linkedin.com/in/danielblackamericankiwi/"><i class="fa fa-linkedin"></i></a></li>
                             
                                 <li class="navbar-icon"><a href="https://www.reddit.com/u/linukbot/"><i class="fa fa-reddit"></i></a></li>
@@ -167,7 +165,7 @@
 
     <br> <div class="text-justify">
 
-<h1 id="web701-5-virtual-machines-and-docker">Web701 5 ~ Virtual Machines and Docker</h1>
+<h1 id="web-development-701-virtual-machines-and-docker">Web Development 701 ~ Virtual Machines and Docker</h1>
 
 <p>Class was mainly reviewing the mock projects, so this blog is going to be dedicated to the virtual machines that I use on virtualbox. For the second milestone we have to describe three frameworks, two of which were prompted in class; laravel (PHP), and meteor (NodeJS). Its times like these that I am thankful for virtual machines. Im not sure how difficult these were to install and get running on windows machines and I dont care to. The perspective I am coming from is that of an ubuntu 16.04 LTS distribution. PHP was insane with dependancies and required <em>a lot of extra steps</em>, meteor at least made a nice cURL command to download a binary, execute it and bam you have the damn thing.</p>
 
@@ -179,7 +177,9 @@
 
 <p>Before spinning up and tinkering with any virtual machine(s), I need to create a base virtual machine that I will clone and have backup snapshots of. One of the downsides to fresh installs is the amount of time it normally takes just to execute <code>sudo apt update &amp;&amp; sudo apt upgrade</code> command. To avoid this the base machine will be updated/upgraded, then taken a snapshot of and cloned.</p>
 
-<p>From the base I can now clone and create three new virtual machines; web701-meteor, web701-laravel, web701-django. I will actually include a fourth virtual machine running Odoo to also add an additional comparison from a Python perspective. From the second web701 blog, I know how to install meteor/laravel and create new projects with the cli&rsquo;s. Python3 is the requirement for django which conveniently is pre-installed on Linux distributions. Docker is the only other dependancy required&hellip; Django I&rsquo;ve actually never used cause I started out and still use Flask, but after reading a <a href="https://www.educba.com/django-vs-flask/">blog</a> comparing the two. I have come to understand that for a scenario like web701&rsquo;s, Django is the better choice. After a quick browse on github, I found a <a href="https://github.com/divio/django-cms">django project</a> that looks promising.</p>
+<p>From the base I can now clone and create three new virtual machines; web701-meteor, web701-laravel, web701-django. I will actually include a fourth virtual machine running Odoo to also add an additional comparison from a Python perspective. From the second web701 blog, I know how to install meteor/laravel and create new projects with the cli&rsquo;s. Python3 is the requirement for django which conveniently is pre-installed on Linux distributions. Docker and/or virtualenv are/is the only other dependancy required&hellip; Django I&rsquo;ve actually never used cause I started out and still use Flask, but after reading a <a href="https://www.educba.com/django-vs-flask/">blog</a> comparing the two. I have come to understand that for a scenario like web701&rsquo;s, Django is the better choice. After a quick browse on github, I found a <a href="https://github.com/divio/django-cms">django project</a> that looks promising.</p>
+
+<p>From my <a href="https://oglinuk.github.io/post/prj701-0.md">prj</a> I have a binary that I use to install odoo(11). Nothing more needed here&hellip;</p>
 </div>
 
     

@@ -17,7 +17,7 @@
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/post/web701-5/</guid>
-      <description>Web701 5 ~ Virtual Machines and Docker Class was mainly reviewing the mock projects, so this blog is going to be dedicated to the virtual machines that I use on virtualbox. For the second milestone we have to describe three frameworks, two of which were prompted in class; laravel (PHP), and meteor (NodeJS). Its times like these that I am thankful for virtual machines. Im not sure how difficult these were to install and get running on windows machines and I dont care to.</description>
+      <description>Web Development 701 ~ Virtual Machines and Docker Class was mainly reviewing the mock projects, so this blog is going to be dedicated to the virtual machines that I use on virtualbox. For the second milestone we have to describe three frameworks, two of which were prompted in class; laravel (PHP), and meteor (NodeJS). Its times like these that I am thankful for virtual machines. Im not sure how difficult these were to install and get running on windows machines and I dont care to.</description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@ How many are there? Over 9000</description>
       <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/post/web701-1/</guid>
-      <description>Web Development 701 ~ Day 2 Today in web701 we covered the frameworks and softwares that are going to be used for the assessment. The frameworks are laravel (an open-source PHP web framework) and meteor (an open-source NodeJS web framework). The softwares are XAMPP (an open-source web server) and composer (a dependancy manager for PHP). I am going to be installing these on a ubuntu virtual machine, so the first thing I need to do is install virtualbox on my manjaro partition.</description>
+      <description>Web Development 701 ~ Frameworks and VirtualBox Today in web701 we covered the frameworks and softwares that are going to be used for the assessment. The frameworks are laravel (an open-source PHP web framework) and meteor (an open-source NodeJS web framework). The softwares are XAMPP (an open-source web server) and composer (a dependancy manager for PHP). I am going to be installing these on a ubuntu virtual machine, so the first thing I need to do is install virtualbox on my manjaro partition.</description>
     </item>
     
   </channel>

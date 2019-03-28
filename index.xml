@@ -6,7 +6,7 @@
     <description>Recent content on Ponte Posterum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oglinuk.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -30,6 +30,24 @@
     </item>
     
     <item>
+      <title>Res701 3</title>
+      <link>https://oglinuk.github.io/post/res701-3/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/res701-3/</guid>
+      <description>Research 701 ~ Credibility How can something be credible? Both the oxford dictionary and merriam-webster define credibility as &amp;ldquo;the quality of being believable&amp;rdquo; [source 1] [source 2] This to me is rather dangerous, since things like vaccine hesitancy have gained traction in recent years. This stems from social platforms giving an amplified voice to those who are not credible, but are accepted as credible by others using the social platform(s) for their source(s) of information.</description>
+    </item>
+    
+    <item>
+      <title>Res701 2</title>
+      <link>https://oglinuk.github.io/post/res701-2/</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/res701-2/</guid>
+      <description>Research 701 ~ Paradigms Postmodernism is a word that I have heard people like Jordan Peterson use but is not a word that I never investigated. It just so happens that postmodernism is one of the paradigms that we talked about in class. The other paradigms are classical and social. One of the take homes is to choose one of the paradigms, describe it, explain what it can be used for, and why I like/dislike the paradigm.</description>
+    </item>
+    
+    <item>
       <title>hello_rust.rs</title>
       <link>https://oglinuk.github.io/post/hello-rust/</link>
       <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
@@ -45,7 +63,7 @@ The why&amp;rsquo;s What I can say is that for one Rust is fast.</description>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/post/web701-5/</guid>
-      <description>Web701 5 ~ Virtual Machines and Docker Class was mainly reviewing the mock projects, so this blog is going to be dedicated to the virtual machines that I use on virtualbox. For the second milestone we have to describe three frameworks, two of which were prompted in class; laravel (PHP), and meteor (NodeJS). Its times like these that I am thankful for virtual machines. Im not sure how difficult these were to install and get running on windows machines and I dont care to.</description>
+      <description>Web Development 701 ~ Virtual Machines and Docker Class was mainly reviewing the mock projects, so this blog is going to be dedicated to the virtual machines that I use on virtualbox. For the second milestone we have to describe three frameworks, two of which were prompted in class; laravel (PHP), and meteor (NodeJS). Its times like these that I am thankful for virtual machines. Im not sure how difficult these were to install and get running on windows machines and I dont care to.</description>
     </item>
     
     <item>
@@ -101,7 +119,7 @@ How many are there? Over 9000</description>
       <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/post/web701-1/</guid>
-      <description>Web Development 701 ~ Day 2 Today in web701 we covered the frameworks and softwares that are going to be used for the assessment. The frameworks are laravel (an open-source PHP web framework) and meteor (an open-source NodeJS web framework). The softwares are XAMPP (an open-source web server) and composer (a dependancy manager for PHP). I am going to be installing these on a ubuntu virtual machine, so the first thing I need to do is install virtualbox on my manjaro partition.</description>
+      <description>Web Development 701 ~ Frameworks and VirtualBox Today in web701 we covered the frameworks and softwares that are going to be used for the assessment. The frameworks are laravel (an open-source PHP web framework) and meteor (an open-source NodeJS web framework). The softwares are XAMPP (an open-source web server) and composer (a dependancy manager for PHP). I am going to be installing these on a ubuntu virtual machine, so the first thing I need to do is install virtualbox on my manjaro partition.</description>
     </item>
     
     <item>
