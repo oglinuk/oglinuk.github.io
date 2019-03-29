@@ -6,7 +6,7 @@
     <description>Recent content on Ponte Posterum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oglinuk.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -30,12 +30,30 @@
     </item>
     
     <item>
+      <title>Res701 4</title>
+      <link>https://oglinuk.github.io/post/res701-4/</link>
+      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/res701-4/</guid>
+      <description>Research 701 ~ Academic Publishing Today&amp;rsquo;s blog is about finding two academic research papers of my choice, which as stated in the first res701 blog will be around data science, machine learning, or deep learning. I stumbled across a gentleman by the name of Jürgen Schmidhuber when watching a video on a panel of specialists talking about the current state of AI. At the time I had no clue who he was or what his accomplishments were, but came to know that he was behind the publication of LSTM (long short-term memory) architectures and also the advancements in CNN (convolutional neural networks) architectures.</description>
+    </item>
+    
+    <item>
       <title>Res701 3</title>
       <link>https://oglinuk.github.io/post/res701-3/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/post/res701-3/</guid>
       <description>Research 701 ~ Credibility How can something be credible? Both the oxford dictionary and merriam-webster define credibility as &amp;ldquo;the quality of being believable&amp;rdquo; [source 1] [source 2] This to me is rather dangerous, since things like vaccine hesitancy have gained traction in recent years. This stems from social platforms giving an amplified voice to those who are not credible, but are accepted as credible by others using the social platform(s) for their source(s) of information.</description>
+    </item>
+    
+    <item>
+      <title>Web701 6</title>
+      <link>https://oglinuk.github.io/post/web701-6/</link>
+      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/web701-6/</guid>
+      <description>Web Development 701 ~ Django-cms, Wagtail &amp;amp; Odoo Last blog I didn&amp;rsquo;t really go into much detail around getting the Django based CMSs or Odoo installed/running. This blog is going to cover those in more detail. To recap, as stated in the previous blog, I have no experience with Django but do have some with Odoo. The reason I am working with Django and not the framework I&amp;rsquo;ve been using (Flask) is because Django is a fullstack framwork, where Flask is only a microframework.</description>
     </item>
     
     <item>

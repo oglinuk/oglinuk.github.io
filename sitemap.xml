@@ -11,8 +11,18 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/post/res701-4/</loc>
+    <lastmod>2019-03-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/post/res701-3/</loc>
     <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/post/web701-6/</loc>
+    <lastmod>2019-03-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -191,8 +201,14 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/tags/academic-publishing/</loc>
+    <lastmod>2019-03-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/tags/academic-research/</loc>
-    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -215,7 +231,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/cms/</loc>
-    <lastmod>2019-03-12T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -227,7 +243,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/credibility/</loc>
-    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -244,14 +260,20 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/tags/django/</loc>
+    <lastmod>2019-03-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/tags/docker/</loc>
-    <lastmod>2019-03-12T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oglinuk.github.io/tags/epistemology/</loc>
-    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -263,7 +285,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/frameworks/</loc>
-    <lastmod>2019-03-12T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -287,7 +309,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/information-architecture/</loc>
-    <lastmod>2019-03-12T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -299,13 +321,13 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/knowing/</loc>
-    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oglinuk.github.io/tags/knowledge/</loc>
-    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -323,7 +345,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/mysql/</loc>
-    <lastmod>2019-03-12T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -335,19 +357,19 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/odoo/</loc>
-    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oglinuk.github.io/tags/ones/</loc>
-    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oglinuk.github.io/tags/ontology/</loc>
-    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -359,7 +381,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/paradigms/</loc>
-    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -371,7 +393,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/</loc>
-    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -383,7 +405,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/post/</loc>
-    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -424,7 +446,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/res701/</loc>
-    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -454,13 +476,13 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/scp/</loc>
-    <lastmod>2019-03-12T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oglinuk.github.io/tags/security/</loc>
-    <lastmod>2019-03-12T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -472,13 +494,13 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/ssh/</loc>
-    <lastmod>2019-03-12T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oglinuk.github.io/tags/</loc>
-    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -502,13 +524,13 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/virtualbox/</loc>
-    <lastmod>2019-03-12T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oglinuk.github.io/tags/web701/</loc>
-    <lastmod>2019-03-12T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
