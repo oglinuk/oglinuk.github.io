@@ -104,9 +104,18 @@
     <item>
       <title>Docker</title>
       <link>https://oglinuk.github.io/tags/docker/</link>
-      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker Compose</title>
+      <link>https://oglinuk.github.io/tags/docker-compose/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/docker-compose/</guid>
       <description></description>
     </item>
     
@@ -417,11 +426,11 @@
     </item>
     
     <item>
-      <title>Spicy Tech</title>
-      <link>https://oglinuk.github.io/tags/spicy-tech/</link>
+      <title>Serverless</title>
+      <link>https://oglinuk.github.io/tags/serverless/</link>
       <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://oglinuk.github.io/tags/spicy-tech/</guid>
+      <guid>https://oglinuk.github.io/tags/serverless/</guid>
       <description></description>
     </item>
     
