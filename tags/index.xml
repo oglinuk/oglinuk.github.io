@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Ponte Posterum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oglinuk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Academic Publishing</title>
       <link>https://oglinuk.github.io/tags/academic-publishing/</link>
-      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/academic-publishing/</guid>
       <description></description>
@@ -23,9 +23,18 @@
     <item>
       <title>Academic Research</title>
       <link>https://oglinuk.github.io/tags/academic-research/</link>
-      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/academic-research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analyzing Academic Articles</title>
+      <link>https://oglinuk.github.io/tags/analyzing-academic-articles/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/analyzing-academic-articles/</guid>
       <description></description>
     </item>
     
@@ -50,7 +59,7 @@
     <item>
       <title>Cms</title>
       <link>https://oglinuk.github.io/tags/cms/</link>
-      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/cms/</guid>
       <description></description>
@@ -62,6 +71,15 @@
       <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/conceptual-skills/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Credability</title>
+      <link>https://oglinuk.github.io/tags/credability/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/credability/</guid>
       <description></description>
     </item>
     
@@ -95,7 +113,7 @@
     <item>
       <title>Django</title>
       <link>https://oglinuk.github.io/tags/django/</link>
-      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/django/</guid>
       <description></description>
@@ -122,7 +140,7 @@
     <item>
       <title>Epistemology</title>
       <link>https://oglinuk.github.io/tags/epistemology/</link>
-      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/epistemology/</guid>
       <description></description>
@@ -140,7 +158,7 @@
     <item>
       <title>Frameworks</title>
       <link>https://oglinuk.github.io/tags/frameworks/</link>
-      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/frameworks/</guid>
       <description></description>
@@ -176,9 +194,18 @@
     <item>
       <title>Information Architecture</title>
       <link>https://oglinuk.github.io/tags/information-architecture/</link>
-      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/information-architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interests</title>
+      <link>https://oglinuk.github.io/tags/interests/</link>
+      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/interests/</guid>
       <description></description>
     </item>
     
@@ -194,7 +221,7 @@
     <item>
       <title>Knowing</title>
       <link>https://oglinuk.github.io/tags/knowing/</link>
-      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/knowing/</guid>
       <description></description>
@@ -203,7 +230,7 @@
     <item>
       <title>Knowledge</title>
       <link>https://oglinuk.github.io/tags/knowledge/</link>
-      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/knowledge/</guid>
       <description></description>
@@ -230,7 +257,7 @@
     <item>
       <title>Mysql</title>
       <link>https://oglinuk.github.io/tags/mysql/</link>
-      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/mysql/</guid>
       <description></description>
@@ -248,7 +275,7 @@
     <item>
       <title>Odoo</title>
       <link>https://oglinuk.github.io/tags/odoo/</link>
-      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/odoo/</guid>
       <description></description>
@@ -257,7 +284,7 @@
     <item>
       <title>Ones</title>
       <link>https://oglinuk.github.io/tags/ones/</link>
-      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/ones/</guid>
       <description></description>
@@ -266,7 +293,7 @@
     <item>
       <title>Ontology</title>
       <link>https://oglinuk.github.io/tags/ontology/</link>
-      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/ontology/</guid>
       <description></description>
@@ -282,9 +309,18 @@
     </item>
     
     <item>
+      <title>Openfaas</title>
+      <link>https://oglinuk.github.io/tags/openfaas/</link>
+      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/openfaas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Paradigms</title>
       <link>https://oglinuk.github.io/tags/paradigms/</link>
-      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/paradigms/</guid>
       <description></description>
@@ -356,7 +392,7 @@
     <item>
       <title>Res701</title>
       <link>https://oglinuk.github.io/tags/res701/</link>
-      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/res701/</guid>
       <description></description>
@@ -401,7 +437,7 @@
     <item>
       <title>Scp</title>
       <link>https://oglinuk.github.io/tags/scp/</link>
-      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/scp/</guid>
       <description></description>
@@ -410,7 +446,7 @@
     <item>
       <title>Security</title>
       <link>https://oglinuk.github.io/tags/security/</link>
-      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/security/</guid>
       <description></description>
@@ -437,7 +473,7 @@
     <item>
       <title>Ssh</title>
       <link>https://oglinuk.github.io/tags/ssh/</link>
-      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/ssh/</guid>
       <description></description>
@@ -482,7 +518,7 @@
     <item>
       <title>Web Hosting</title>
       <link>https://oglinuk.github.io/tags/web-hosting/</link>
-      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/web-hosting/</guid>
       <description></description>

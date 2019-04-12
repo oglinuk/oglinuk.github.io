@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Openfaas on Ponte Posterum</title>
+    <link>https://oglinuk.github.io/tags/openfaas/</link>
+    <description>Recent content in Openfaas on Ponte Posterum</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://oglinuk.github.io/tags/openfaas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Web701 9</title>
+      <link>https://oglinuk.github.io/post/web701-9/</link>
+      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/web701-9/</guid>
+      <description>Web Development 701 ~ OpenFaas As stated in the previous blog, the first exposure to serverless was OpenFaaS. Whether its because of bias of the first exposure or because of bias towards docker, I am going to be exploring OpenFaaS for the serverless implementation of assessment three. First thing to do like anything is to head to the documentation section. &amp;ldquo;OpenFaaS (Functions as a Service) is a framework for building serverless functions with Docker and Kubernetes which has first class support for metrics.</description>
+    </item>
+    
+  </channel>
+</rss>

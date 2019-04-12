@@ -141,31 +141,11 @@
     
     <a href="https://oglinuk.github.io/tags/web701"><kbd class="item-tag">Web701</kbd></a>
     
-    <a href="https://oglinuk.github.io/tags/cms"><kbd class="item-tag">CMS</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/frameworks"><kbd class="item-tag">Frameworks</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/information-architecture"><kbd class="item-tag">Information architecture</kbd></a>
-    
     <a href="https://oglinuk.github.io/tags/virtualbox"><kbd class="item-tag">VirtualBox</kbd></a>
     
-    <a href="https://oglinuk.github.io/tags/security"><kbd class="item-tag">Security</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/ssh"><kbd class="item-tag">SSH</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/mysql"><kbd class="item-tag">MySQL</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/scp"><kbd class="item-tag">SCP</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/docker"><kbd class="item-tag">Docker</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/django"><kbd class="item-tag">Django</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/odoo"><kbd class="item-tag">Odoo</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/web-hosting"><kbd class="item-tag">Web Hosting</kbd></a>
-    
     <a href="https://oglinuk.github.io/tags/serverless"><kbd class="item-tag">Serverless</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/openfaas"><kbd class="item-tag">OpenFaas</kbd></a>
     
 
 </div>
@@ -173,9 +153,47 @@
 
     <br> <div class="text-justify">
 
-<h1 id="web-development-701-serverless-continued">Web Development 701 ~ Serverless Continued</h1>
+<h1 id="web-development-701-openfaas">Web Development 701 ~ OpenFaas</h1>
 
-<p>As stated in the <a href="/post/web701-8">previous blog</a>, the first exposure to serverless was <a href="https://github.com/openfaas/faas">OpenFaaS</a>. Whether its because of bias of the first exposure or because of bias towards <em>docker</em>, I am going to be using OpenFaaS for the serverless implementation of assessment three.</p>
+<p>As stated in the <a href="/post/web701-8">previous blog</a>, the first exposure to serverless was <a href="https://github.com/openfaas/faas">OpenFaaS</a>. Whether its because of bias of the first exposure or because of bias towards <em>docker</em>, I am going to be exploring OpenFaaS for the serverless implementation of assessment three. First thing to do like anything is to head to the <a href="https://docs.openfaas.com/">documentation section</a>. &ldquo;OpenFaaS (Functions as a Service) is a framework for building serverless functions with Docker and Kubernetes which has first class support for metrics.&rdquo; <a href="https://docs.openfaas.com/#openfaas-serverless-functions-made-simple">[source]</a> &ldquo;OpenFaaS is free to use and completely open source under the MIT license.&rdquo; <a href="https://docs.openfaas.com/#support-for-openfaas">[source]</a></p>
+
+<p>The <a href="https://docs.openfaas.com/conceptual/">overview of OpenFaaS</a> are as follows.</p>
+
+<ul>
+<li><p><a href="https://docs.openfaas.com/conceptual/#function-watchdog"><strong>Fuction Watchdog</strong></a></p></li>
+
+<li><p><a href="https://docs.openfaas.com/conceptual/#api-gateway-ui-portal"><strong>API Gateway / UI Portal</strong></a></p></li>
+
+<li><p><a href="https://docs.openfaas.com/conceptual/#cli"><strong>CLI</strong></a></p></li>
+</ul>
+
+<p>Now to move on to the <a href="https://docs.openfaas.com/deployment/">getting started</a> section and get our hands dirty.</p>
+
+<p>There are two available options for deployment <a href="https://docs.openfaas.com/deployment/docker-swarm/">docker swarm</a> and <a href="https://docs.openfaas.com/deployment/kubernetes/">kubernetes</a>. Docker swarm is recommended for beginners so I will run through that guide first.</p>
+
+<p>The first step is to install the <a href="https://docs.openfaas.com/deployment/docker-swarm/#10-install-the-faas-cli">faas-cli</a>. I am using my ubuntu 16.04 LTS virtual machine, so I will be installing via the curl command which is as follows.</p>
+
+<p><code>curl -sL https://cli.openfaas.com | sudo sh</code></p>
+
+<p>Next is to <a href="https://docs.openfaas.com/deployment/docker-swarm/#11-initialize-swarm-mode">initialize a docker swarm</a> via the following command.</p>
+
+<p><code>docker swarm init</code></p>
+
+<p>Now to deploy the OpenFaas stack via the following.</p>
+
+<p><code>git clone https://github.com/openfaas/faas &amp;&amp; cd faas &amp;&amp; ./deploy_stack.sh</code></p>
+
+<p>Going to <code>localhost:8080</code> should give us a login panel to access the UI.</p>
+
+<p>It works!</p>
+
+<p>Finally to make sure everything is working the guide suggests to deploy a sample function from the <a href="https://docs.openfaas.com/deployment/docker-swarm/#22-deploy-functions-from-the-openfaas-function-store">OpenFaas function store</a>. The example function in the guide is figlet and the command to deploy/evoke it is as follows.</p>
+
+<p><code>faas-cli store deploy figlet</code></p>
+
+<p><code>echo &quot;Hello OpenFaas!&quot; | faas-cli invoke figlet</code></p>
+
+<p>With this done the next step is to go through the <a href="https://docs.openfaas.com/tutorials/workshop/">OpenFaas workshop</a> which I will cover in the next blog.</p>
 </div>
 
     
@@ -194,42 +212,26 @@
     
     
 
-    <h4><a href="/post/docker-1/">Docker 1</a></h4>
-    <h5>April 1, 2019</h5>
-    
-    <a href="https://oglinuk.github.io/tags/docker"><kbd class="item-tag">Docker</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/docker-compose"><kbd class="item-tag">Docker-compose</kbd></a>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/docker-0/">Docker 0</a></h4>
-    <h5>March 30, 2019</h5>
-    
-    <a href="https://oglinuk.github.io/tags/docker"><kbd class="item-tag">Docker</kbd></a>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
     <h4><a href="/post/web701-8/">Web701 8</a></h4>
     <h5>March 25, 2019</h5>
+    
+    <a href="https://oglinuk.github.io/tags/web701"><kbd class="item-tag">Web701</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/serverless"><kbd class="item-tag">Serverless</kbd></a>
+    
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/web701-7/">Web701 7</a></h4>
+    <h5>March 19, 2019</h5>
     
     <a href="https://oglinuk.github.io/tags/web701"><kbd class="item-tag">Web701</kbd></a>
     
@@ -237,27 +239,37 @@
     
     <a href="https://oglinuk.github.io/tags/frameworks"><kbd class="item-tag">Frameworks</kbd></a>
     
-    <a href="https://oglinuk.github.io/tags/information-architecture"><kbd class="item-tag">Information architecture</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/virtualbox"><kbd class="item-tag">VirtualBox</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/security"><kbd class="item-tag">Security</kbd></a>
-    
     <a href="https://oglinuk.github.io/tags/ssh"><kbd class="item-tag">SSH</kbd></a>
     
-    <a href="https://oglinuk.github.io/tags/mysql"><kbd class="item-tag">MySQL</kbd></a>
+    <a href="https://oglinuk.github.io/tags/web-hosting"><kbd class="item-tag">Web Hosting</kbd></a>
     
-    <a href="https://oglinuk.github.io/tags/scp"><kbd class="item-tag">SCP</kbd></a>
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/web701-6/">Web701 6</a></h4>
+    <h5>March 18, 2019</h5>
+    
+    <a href="https://oglinuk.github.io/tags/web701"><kbd class="item-tag">Web701</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/cms"><kbd class="item-tag">CMS</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/frameworks"><kbd class="item-tag">Frameworks</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/virtualbox"><kbd class="item-tag">VirtualBox</kbd></a>
     
     <a href="https://oglinuk.github.io/tags/docker"><kbd class="item-tag">Docker</kbd></a>
     
     <a href="https://oglinuk.github.io/tags/django"><kbd class="item-tag">Django</kbd></a>
     
     <a href="https://oglinuk.github.io/tags/odoo"><kbd class="item-tag">Odoo</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/web-hosting"><kbd class="item-tag">Web Hosting</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/serverless"><kbd class="item-tag">Serverless</kbd></a>
     
 
 </div>
