@@ -57,6 +57,15 @@
     </item>
     
     <item>
+      <title>Cli</title>
+      <link>https://oglinuk.github.io/tags/cli/</link>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/cli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cms</title>
       <link>https://oglinuk.github.io/tags/cms/</link>
       <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
@@ -122,7 +131,7 @@
     <item>
       <title>Docker</title>
       <link>https://oglinuk.github.io/tags/docker/</link>
-      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/docker/</guid>
       <description></description>
@@ -311,7 +320,7 @@
     <item>
       <title>Openfaas</title>
       <link>https://oglinuk.github.io/tags/openfaas/</link>
-      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/openfaas/</guid>
       <description></description>
@@ -374,18 +383,9 @@
     <item>
       <title>Python</title>
       <link>https://oglinuk.github.io/tags/python/</link>
-      <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python3</title>
-      <link>https://oglinuk.github.io/tags/python3/</link>
-      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://oglinuk.github.io/tags/python3/</guid>
       <description></description>
     </item>
     
@@ -464,7 +464,7 @@
     <item>
       <title>Serverless</title>
       <link>https://oglinuk.github.io/tags/serverless/</link>
-      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/serverless/</guid>
       <description></description>
@@ -509,7 +509,7 @@
     <item>
       <title>Virtualbox</title>
       <link>https://oglinuk.github.io/tags/virtualbox/</link>
-      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/virtualbox/</guid>
       <description></description>
@@ -527,7 +527,7 @@
     <item>
       <title>Web701</title>
       <link>https://oglinuk.github.io/tags/web701/</link>
-      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/web701/</guid>
       <description></description>

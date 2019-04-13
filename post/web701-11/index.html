@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>PTP</title>
+        <title>Web701 11</title>
         
         <style>
 
@@ -80,7 +80,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">PTP</a>
+                    <a class="navbar-brand visible-xs" href="#">Web701 11</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -131,44 +131,6 @@
 
     
     
-        
-        
-            
-        
-    
-    
-
-    
-      
-
-    <h4><a href="https://github.com/OGLinuk/ptp/">PTP</a></h4>
-    <h5>Path to Programming</h5>
-    
-    <a href="https://oglinuk.github.io/tags/python"><kbd class="item-tag">Python</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/golang"><kbd class="item-tag">Golang</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/rust"><kbd class="item-tag">Rust</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/docker"><kbd class="item-tag">Docker</kbd></a>
-    
-
-</div>
-
-
-    <br> <div class="text-justify"></div>
-
-    
-    
-
-    
-
-        <h4 class="page-header">Related</h4>
-
-         <div class="item">
-
-    
-    
     
 
     
@@ -193,7 +155,73 @@
     
 
 </div>
-  <div class="item">
+
+
+    <br> <div class="text-justify">
+
+<h1 id="web-development-701-openfaas-lab-4-https-github-com-openfaas-workshop-blob-master-lab4-md-lab-4-go-deeper-with-functions">Web Development 701 ~ OpenFaas ~ <a href="https://github.com/openfaas/workshop/blob/master/lab4.md#lab-4---go-deeper-with-functions">Lab 4</a></h1>
+
+<p>In this blog we are going to go through <a href="https://github.com/openfaas/workshop/blob/master/lab4.md#lab-4---go-deeper-with-functions">lab 4</a> which goes into more depth around functions.</p>
+
+<p>The first part of the lab covers <a href="https://github.com/openfaas/workshop/blob/master/lab4.md#inject-configuration-through-environmental-variables">configuration injection with environment variables</a>. There are two ways of doing so; <a href="https://github.com/openfaas/workshop/blob/master/lab4.md#at-deployment-time">at deployment time</a> and <a href="https://github.com/openfaas/workshop/blob/master/lab4.md#use-http-context---querystring--headers">using query string and HTTP headers</a>. Environment variables at deployment time are covered in lab 3 when working with <a href="https://github.com/openfaas/workshop/blob/master/lab3.md#troubleshooting-verbose-output-with-write_debug">write_debug</a>, which is where the <code>environment</code> variable is added to the YAML file.</p>
+
+<p>For using query string and HTTP headers the lab requires us to deploy a function that displays environment variables using a built-in BusyBox command. This is done via the following.</p>
+
+<p><code>faas-cli deploy --name env --fprocess=&quot;env&quot; --image=&quot;functions/alpine:latest&quot; --network=func_functions</code></p>
+
+<p>Now to invoke the function with a query string via the following.</p>
+
+<p><code>echo &quot;&quot; | faas-cli invoke env --query lab=4</code> results in <code>Http_Query=lab=4</code></p>
+
+<p>The function can also be invoked via a curl command, an example is as follows.</p>
+
+<p><code>curl -X GET http://127.0.0.1:8080/function/env/hello/world -d &quot;&quot;</code></p>
+
+<p>results in <code>Http_Path=/hello/world</code></p>
+
+<p>Next to invoke the function with a header via the following.</p>
+
+<p><code>curl http://127.0.0.1:8080/function/env --header &quot;X-Output-Mode: json&quot; -d &quot;&quot;</code></p>
+
+<p>results in <code>Http_X_Output_Mode=json</code></p>
+
+<hr>
+
+<p>The next topic covered in this lab is <a href="https://github.com/openfaas/workshop/blob/master/lab4.md#making-use-of-logging">making use of logging</a>. The case when a function exits with a non-zero code and <code>stderr</code> is not empty, <code>stderr</code> is not printed to the logs. The lab prompts to change the code of <code>handler.py</code> to include the following.</p>
+
+<p><code>sys.stderr.write(&quot;This is an error message.\n&quot;)</code></p>
+
+<p><code>return json.dumps({&quot;Hello&quot;: &quot;from OpenFaas!&quot;})</code></p>
+
+<p>Now to build/deploy and invoke with the following.</p>
+
+<p><code>faas-cli up -f hello-openfaas.yml</code></p>
+
+<p><code>echo | faas-cli invoke hello-openfaas</code></p>
+
+<p>The lab states that it is necessary to redirect the messages from stderr to the container&rsquo;s logs via adding <code>combine_output: false</code> to the <code>hello-openfaas.yaml</code> file under the <code>environment</code> variable.</p>
+
+<hr>
+
+<p>The next section of the lab covers <a href="https://github.com/openfaas/workshop/blob/master/lab4.md#create-workflows">workflows</a>. The first being <a href="https://github.com/openfaas/workshop/blob/master/lab4.md#chaining-functions-on-the-client-side">chaining functions on the client-side</a>. To start we need to deploy the nodeinfo function via <code>faas-cli deploy nodeinfo</code>. Then to chain the functions we execute the following.</p>
+
+<p><code>echo -n &quot;&quot; | faas-cli invoke nodeinfo | faas-cli invoke markdown</code></p>
+
+<p>This prints the information of the node then pushes it through the markdown function which converts the print to markdown.</p>
+
+<p>The second workflow is <a href="https://github.com/openfaas/workshop/blob/master/lab4.md#call-one-function-from-another">calling one function from another</a>. This workflow require us to deploy the sentiment analysis function to start via the command <code>faas-cli deploy sentiment analysis</code>. To call the sentiment analysis function from our hello-openfaas function we add the <code>requests</code> module. With the requests module we pass <code>(&quot;http://127.0.0.1:8080/function/sentimentanalysis&quot;, data=req)</code>. The lab suggests to use an environment variable for the hostname (instead of <code>127.0.0.1</code>) for two reasons; the name may change and Kubernetes sometimes requires a suffix.</p>
+
+<p>Thats it for this lab</p>
+</div>
+
+    
+    
+
+    
+
+        <h4 class="page-header">Related</h4>
+
+         <div class="item">
 
     
     
@@ -238,6 +266,24 @@
     <a href="https://oglinuk.github.io/tags/python"><kbd class="item-tag">Python</kbd></a>
     
     <a href="https://oglinuk.github.io/tags/docker-compose"><kbd class="item-tag">Docker-compose</kbd></a>
+    
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/docker-0/">Docker 0</a></h4>
+    <h5>March 30, 2019</h5>
+    
+    <a href="https://oglinuk.github.io/tags/docker"><kbd class="item-tag">Docker</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/python"><kbd class="item-tag">Python</kbd></a>
     
 
 </div>
