@@ -6,10 +6,19 @@
     <description>Recent content in Python on Ponte Posterum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oglinuk.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SBH</title>
+      <link>https://oglinuk.github.io/project/sbh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/project/sbh/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>PTP</title>
@@ -21,12 +30,40 @@
     </item>
     
     <item>
-      <title>SBH</title>
-      <link>https://oglinuk.github.io/project/sbh/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Web701 14</title>
+      <link>https://oglinuk.github.io/post/web701-14/</link>
+      <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://oglinuk.github.io/project/sbh/</guid>
-      <description></description>
+      <guid>https://oglinuk.github.io/post/web701-14/</guid>
+      <description>Web Development 701 ~ Registration In the previous blog we covered the basic implementation of authentication using the built-in authentication system of Django. In this blog we are going to cover how to handle user registration. The first thing to do is to add the following line to the urls.py file under our authentication app.
+path(&#39;register&#39;, views.register, name=&#39;register&#39;)  Now to create the corresponding view in the views.py file.</description>
+    </item>
+    
+    <item>
+      <title>Docker 2</title>
+      <link>https://oglinuk.github.io/post/docker-2/</link>
+      <pubDate>Sun, 28 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/docker-2/</guid>
+      <description>Docker-compose ~ container_name For my SDV701 assessment 2 we have to build a tiered software. I&amp;rsquo;ve decided to use Flask for the presentation tier, Flask-restful for the logic tier, and mongodb (via pymongo) for the data tier. I&amp;rsquo;ve also decided to use docker and docker-compose since running a mongodb server in docker is as easy as pulling an image from docker-hub. Below is a snippet from the docker-compose.yml file, showing how easy it is.</description>
+    </item>
+    
+    <item>
+      <title>Web701 13</title>
+      <link>https://oglinuk.github.io/post/web701-13/</link>
+      <pubDate>Tue, 09 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/web701-13/</guid>
+      <description>Web Development 701 ~ Authentication In this blog post we are going to cover the implementation of user authentication. First thing to do is to create a new app via python3 manage.py startapp authentication. Next we need to run python3 manage.py migrate. Then we need to create a super user via python3 manage.py createsuperuser. Now we need to add authentication to the INSTALLED_APPS list in the settings.py file. Once that is done we can start to add the authentication functionality.</description>
+    </item>
+    
+    <item>
+      <title>Web701 12</title>
+      <link>https://oglinuk.github.io/post/web701-12/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/web701-12/</guid>
+      <description>Web Development 701 ~ Assessment 2 Milestone 3 Since I have completed milestone&amp;rsquo;s 1 and 2 for assessment 2 of web701, I am going to start milestone 3 (building the proposed website). I have chosen to use Django since Django is more suitable for a production environment than Flask. Originally I was going to use Django-cms, but quickly found that it would not be as easy to implement some of the features required for the milestone.</description>
     </item>
     
     <item>
