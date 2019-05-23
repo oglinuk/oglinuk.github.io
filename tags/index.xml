@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Ponte Posterum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oglinuk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,54 @@
     <item>
       <title>Django</title>
       <link>https://oglinuk.github.io/tags/django/</link>
-      <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/django/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heroku</title>
+      <link>https://oglinuk.github.io/tags/heroku/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/heroku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://oglinuk.github.io/tags/python/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Hosting</title>
+      <link>https://oglinuk.github.io/tags/web-hosting/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/web-hosting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web701</title>
+      <link>https://oglinuk.github.io/tags/web701/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/web701/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Auction system</title>
+      <link>https://oglinuk.github.io/tags/auction-system/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/auction-system/</guid>
       <description></description>
     </item>
     
@@ -26,24 +71,6 @@
       <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/price-calculator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://oglinuk.github.io/tags/python/</link>
-      <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oglinuk.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web701</title>
-      <link>https://oglinuk.github.io/tags/web701/</link>
-      <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oglinuk.github.io/tags/web701/</guid>
       <description></description>
     </item>
     
@@ -224,15 +251,6 @@
       <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/ssh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web Hosting</title>
-      <link>https://oglinuk.github.io/tags/web-hosting/</link>
-      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oglinuk.github.io/tags/web-hosting/</guid>
       <description></description>
     </item>
     
