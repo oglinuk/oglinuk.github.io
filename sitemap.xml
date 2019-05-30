@@ -102,6 +102,29 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/tags/academic-research/</loc>
+    <lastmod>2019-05-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/tags/peer-review/</loc>
+    <lastmod>2019-05-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/tags/res701/</loc>
+    <lastmod>2019-05-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/post/res701-7/</loc>
+    <lastmod>2019-05-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/post/web701-15/</loc>
     <lastmod>2019-04-30T00:00:00+00:00</lastmod>
   </url>
@@ -141,19 +164,7 @@
   </url>
   
   <url>
-    <loc>https://oglinuk.github.io/tags/academic-research/</loc>
-    <lastmod>2019-04-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://oglinuk.github.io/tags/interests/</loc>
-    <lastmod>2019-04-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://oglinuk.github.io/tags/res701/</loc>
     <lastmod>2019-04-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

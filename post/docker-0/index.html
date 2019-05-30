@@ -59,7 +59,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.55.5" />
+ <meta name="generator" content="Hugo 0.55.6" />
         
 
         
@@ -157,7 +157,7 @@
 
 <p>A question I was once asked when I gave a talk at a Python meetup was &ldquo;how easy is it to dockerize an existing project?&rdquo; This is a great question, as one of the biggest make or breaks with technology is its capability of integrating with existing code bases. Though I can&rsquo;t say for larger code bases, I can say for my projects, adding docker is simple. This is coming from the perspective of Python projects, which have whats called <em>requirements.txt</em> files that contain all the dependancies. All that needs adding is a <em>Dockerfile</em>, which an example can be found below.</p>
 
-<pre><code class="language-None">FROM python:3.5
+<pre><code class="language-Dockerfile">FROM python:3.5
 ADD . /code
 WORKDIR /code
 EXPOSE 9123
