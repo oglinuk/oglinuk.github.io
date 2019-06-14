@@ -6,10 +6,118 @@
     <description>Recent content in Tags on Ponte Posterum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oglinuk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Academic Research</title>
+      <link>https://oglinuk.github.io/tags/academic-research/</link>
+      <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/academic-research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conclusion</title>
+      <link>https://oglinuk.github.io/tags/conclusion/</link>
+      <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/conclusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Res701</title>
+      <link>https://oglinuk.github.io/tags/res701/</link>
+      <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/res701/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creative Commons</title>
+      <link>https://oglinuk.github.io/tags/creative-commons/</link>
+      <pubDate>Fri, 07 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/creative-commons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ethics</title>
+      <link>https://oglinuk.github.io/tags/ethics/</link>
+      <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/ethics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CLI</title>
+      <link>https://oglinuk.github.io/tags/cli/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/cli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://oglinuk.github.io/tags/docker/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenFaas</title>
+      <link>https://oglinuk.github.io/tags/openfaas/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/openfaas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://oglinuk.github.io/tags/python/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Serverless</title>
+      <link>https://oglinuk.github.io/tags/serverless/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/serverless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VirtualBox</title>
+      <link>https://oglinuk.github.io/tags/virtualbox/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/virtualbox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web701</title>
+      <link>https://oglinuk.github.io/tags/web701/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/web701/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Django</title>
@@ -30,29 +138,11 @@
     </item>
     
     <item>
-      <title>Python</title>
-      <link>https://oglinuk.github.io/tags/python/</link>
-      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oglinuk.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Web Hosting</title>
       <link>https://oglinuk.github.io/tags/web-hosting/</link>
       <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/web-hosting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web701</title>
-      <link>https://oglinuk.github.io/tags/web701/</link>
-      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oglinuk.github.io/tags/web701/</guid>
       <description></description>
     </item>
     
@@ -84,15 +174,6 @@
     </item>
     
     <item>
-      <title>Academic Research</title>
-      <link>https://oglinuk.github.io/tags/academic-research/</link>
-      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oglinuk.github.io/tags/academic-research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Peer Review</title>
       <link>https://oglinuk.github.io/tags/peer-review/</link>
       <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
@@ -102,29 +183,11 @@
     </item>
     
     <item>
-      <title>Res701</title>
-      <link>https://oglinuk.github.io/tags/res701/</link>
-      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oglinuk.github.io/tags/res701/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Authentication</title>
       <link>https://oglinuk.github.io/tags/authentication/</link>
       <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/authentication/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>https://oglinuk.github.io/tags/docker/</link>
-      <pubDate>Sun, 28 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oglinuk.github.io/tags/docker/</guid>
       <description></description>
     </item>
     
@@ -188,42 +251,6 @@
       <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/credability/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CLI</title>
-      <link>https://oglinuk.github.io/tags/cli/</link>
-      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oglinuk.github.io/tags/cli/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OpenFaas</title>
-      <link>https://oglinuk.github.io/tags/openfaas/</link>
-      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oglinuk.github.io/tags/openfaas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Serverless</title>
-      <link>https://oglinuk.github.io/tags/serverless/</link>
-      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oglinuk.github.io/tags/serverless/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>VirtualBox</title>
-      <link>https://oglinuk.github.io/tags/virtualbox/</link>
-      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oglinuk.github.io/tags/virtualbox/</guid>
       <description></description>
     </item>
     
