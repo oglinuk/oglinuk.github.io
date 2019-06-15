@@ -6,10 +6,73 @@
     <description>Recent content in Tags on Ponte Posterum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oglinuk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CLI</title>
+      <link>https://oglinuk.github.io/tags/cli/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/cli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Ocean</title>
+      <link>https://oglinuk.github.io/tags/digital-ocean/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/digital-ocean/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://oglinuk.github.io/tags/docker/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenFaas</title>
+      <link>https://oglinuk.github.io/tags/openfaas/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/openfaas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://oglinuk.github.io/tags/python/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Serverless</title>
+      <link>https://oglinuk.github.io/tags/serverless/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/serverless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web701</title>
+      <link>https://oglinuk.github.io/tags/web701/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/web701/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Academic Research</title>
@@ -57,65 +120,11 @@
     </item>
     
     <item>
-      <title>CLI</title>
-      <link>https://oglinuk.github.io/tags/cli/</link>
-      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oglinuk.github.io/tags/cli/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>https://oglinuk.github.io/tags/docker/</link>
-      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oglinuk.github.io/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OpenFaas</title>
-      <link>https://oglinuk.github.io/tags/openfaas/</link>
-      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oglinuk.github.io/tags/openfaas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://oglinuk.github.io/tags/python/</link>
-      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oglinuk.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Serverless</title>
-      <link>https://oglinuk.github.io/tags/serverless/</link>
-      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oglinuk.github.io/tags/serverless/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>VirtualBox</title>
       <link>https://oglinuk.github.io/tags/virtualbox/</link>
       <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/virtualbox/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web701</title>
-      <link>https://oglinuk.github.io/tags/web701/</link>
-      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oglinuk.github.io/tags/web701/</guid>
       <description></description>
     </item>
     

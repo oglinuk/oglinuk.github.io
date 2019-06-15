@@ -6,10 +6,20 @@
     <description>Recent content in CLI on Ponte Posterum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oglinuk.github.io/tags/cli/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Web701 22</title>
+      <link>https://oglinuk.github.io/post/web701-22/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/web701-22/</guid>
+      <description>Web Development 701 ~ Deploying with Digital Ocean Now that we have built the function, which was covered in the last post, it&amp;rsquo;s time to deploy it. For deployment we will be using digital ocean for a couple of reasons. First it&amp;rsquo;s much easier than setting up instances in the larger cloud providers like GCP, AWS, or Azure. Second digital ocean has an OpenFaas one-click droplet.
+The first thing to do is to ssh into the droplet via ssh root@&amp;lt;IP address&amp;gt;.</description>
+    </item>
     
     <item>
       <title>Web701 21</title>
