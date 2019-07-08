@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Ponte Posterum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oglinuk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Self-study</title>
+      <link>https://oglinuk.github.io/tags/self-study/</link>
+      <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/self-study/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CLI</title>
@@ -440,15 +449,6 @@
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/rotary/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Self-study</title>
-      <link>https://oglinuk.github.io/tags/self-study/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oglinuk.github.io/tags/self-study/</guid>
       <description></description>
     </item>
     
