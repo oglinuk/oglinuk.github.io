@@ -6,10 +6,20 @@
     <description>Recent content in Hello World on Ponte Posterum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jul 2019 06:17:33 +1200</lastBuildDate>
     
 	<atom:link href="https://oglinuk.github.io/tags/hello-world/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>hello_c&#43;&#43;.cpp</title>
+      <link>https://oglinuk.github.io/post/cpp-0/</link>
+      <pubDate>Sun, 21 Jul 2019 06:17:33 +1200</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/cpp-0/</guid>
+      <description>C++ For a while I&amp;rsquo;ve been meaning to dive into a lower language such as C++, but never found the time to do so. Now I have an excuse as my new employment involves working with C++. To start, like with anything I made a simple hello world program. This looks like the following&amp;hellip;
+#include &amp;lt;iostream&amp;gt; int main() { std::cout &amp;lt;&amp;lt; &amp;quot;Hello world from C++!\n&amp;quot;; return 0; }  Now to compile the program via g++ main.</description>
+    </item>
     
     <item>
       <title>hello_rust.rs</title>
