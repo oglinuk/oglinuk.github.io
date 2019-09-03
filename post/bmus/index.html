@@ -160,6 +160,18 @@
 <p>Bmus, or Back Me Up Scotty, is the software that I developed so that I can get into the habit of taking regular backups without having the headache of proprietary software, or remembering to execute the backup process. The program at this current point is basic, it takes 3 flags; -f, -t, and -d. <code>-f</code> is to pass flag options for rsync. For example I use <code>-azvh</code> which <a href="https://explainshell.com/explain?cmd=rsync+-azvh">breaks down</a> to be; <code>a</code>rchive, <code>z</code> ~ compress, <code>v</code>erbose, <code>h</code>uman readable.</p>
 
 <p>One problem that I have noticed was having to hardcode the directory path of the rsync command when executing it. This is <code>/home/oglinuk</code> at the moment, but if anyone else were to use bmus, it would not work. Currently I am working on a solution involving either the built in command <code>whoami</code> or utilizing the standard Go library <code>os</code>. I have tried basic implementations of both, but have yet to find a working solution.</p>
+
+<h3 id="update-8-25-2019">Update 8/25/2019</h3>
+
+<p>I have put off working more on <a href="https://github.com/OGLinuk/bmus">bmus</a> for quite a while, but have dedicated time and am actively developing it again. I&rsquo;ve made a few changes and have gotten it to a working state.</p>
+
+<p>To start I no longer use a hardcoded path, everything uses absolute paths. When I started making changes I originally made it so that you would create a <code>config.json</code> file which would store the flags, target, and destination. Then I decided to move that into a seperate development branch as the primary use case of this program will be via the command-line.</p>
+
+<p>The next thing I changed was to use the absolute path for both the target and destination paths to avoid errors when using targets/destinations like <code>.</code> or <code>~</code>.</p>
+
+<p>I added a few things which include a check to ensure the target/destination exist, if a destination does not exist, one is created with the given path.</p>
+
+<p>I also added an archival process, where the backup destination is compressed into a zip file.</p>
 </div>
 
     

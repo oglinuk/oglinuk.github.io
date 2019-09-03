@@ -163,8 +163,8 @@
                  libavcodec-dev \
                  libavformat-dev \
                  libswscale-dev \
-                 python-dev \
-                 python-numpy \
+                 python3-dev \
+                 python3-numpy \
                  libtbb2 \
                  libtbb-dev \
                  libjasper-dev \
@@ -173,12 +173,6 @@
                  libtiff-dev \
                  libdc1394-22-dev
 </code></pre>
-
-<p>When running the above command I got an error involving being unable to find the <code>libjasper-dev</code> package. After a few duckduckgo searches I was able to find a working solution, which is as follows&hellip;</p>
-
-<p><code>sudo add-apt-repository 'deb http://security.ubuntu.com/ubuntu xenial-security main'</code></p>
-
-<p>followed by <code>sudo apt update</code>. Then after running the above <code>install</code> command everything works.</p>
 
 <p><br></p>
 
@@ -197,45 +191,25 @@
 <p>Within <code>build</code> we now run the following command.</p>
 
 <pre><code>cmake -D CMAKE_BUILD_TYPE=RELEASE \
+      -D OPENCV_GENERATE_PKGCONFIG=YES \
       -D CMAKE_INSTALL_PREFIX=/usr/local \
-      -D WITH_TBB=ON \
-      -D BUILD_NEW_PYTHON_SUPPORT=ON \
-      -D WITH_V4L=ON \
+      -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules 
       -D INSTALL_C_EXAMPLES=ON \
       -D INSTALL_PYTHON_EXAMPLES=ON \
-      -D BUILD_EXAMPLES=ON \
-      -D WITH_QT=ON \
+      -D WITH_V4L=ON \
+      -D WITH_QT=OFF \
+      -D WITH_TBB=ON \
+      -D WITH_CUDA=ON \
       -D WITH_OPENGL=ON \
-      -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules ..
+      -D BUILD_EXAMPLES=ON \
+      -D BUILD_OPENCV_PYTHON2=ON \
+      -D BUILD_OPENCV_PYTHON3=ON \
+      -D BUILD_SHARED_LIBS=ON ..
 </code></pre>
-
-<p>The next error I ran into was the following.</p>
-
-<pre><code class="language-Shell">CMake Error at cmake/OpenCVFindLibsGUI.cmake:18 (find_package):                                                                               
-  Could not find a package configuration file provided by &quot;Qt5&quot; with any of                                                                   
-  the following names:                                                                                                                        
-                                                                                                                                              
-    Qt5Config.cmake                                                                                                                           
-    qt5-config.cmake                                                                                                                          
-                                                                                                                                              
-  Add the installation prefix of &quot;Qt5&quot; to CMAKE_PREFIX_PATH or set &quot;Qt5_DIR&quot;                                                                  
-  to a directory containing one of the above files.  If &quot;Qt5&quot; provides a                                                                      
-  separate development package or SDK, be sure it has been installed.                                                                         
-Call Stack (most recent call first):                                                                                                          
-  CMakeLists.txt:780 (include) 
-</code></pre>
-
-<p>After another quick duckduckgo search I found a solution which was via the following.</p>
-
-<p><code>sudo apt-get install qt5-default</code>.</p>
 
 <p>The next command to run is <code>make -j7</code>, then <code>sudo make install</code>.</p>
 
 <p><br></p>
-
-<p>After a few attempts, I had no success with the installation. I did however find a working solution in the form of a <a href="https://github.com/jayrambhia/Install-OpenCV">shell script</a>. All thats needed for this solution is to execute the following commands.</p>
-
-<p><code>chmod +x *</code> and <code>./opencv_latest.sh</code></p>
 
 <p>With that I now have the ability to use <code>#include &lt;opencv2/opencv.hpp&gt;</code> in the following example.</p>
 
@@ -316,6 +290,24 @@ target_link_libraries( OpenCVDisplayImg ${OpenCV_LIBS} )
     
     
 
+    <h4><a href="/post/cpp-4/">C&#43;&#43; 4</a></h4>
+    <h5>July 26, 2019</h5>
+    
+    <a href="https://oglinuk.github.io/tags/c&#43;&#43;"><kbd class="item-tag">C&#43;&#43;</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/headers"><kbd class="item-tag">Headers</kbd></a>
+    
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
     <h4><a href="/post/cpp-3/">C&#43;&#43; 3</a></h4>
     <h5>July 23, 2019</h5>
     
@@ -342,24 +334,6 @@ target_link_libraries( OpenCVDisplayImg ${OpenCV_LIBS} )
     <a href="https://oglinuk.github.io/tags/makefile"><kbd class="item-tag">Makefile</kbd></a>
     
     <a href="https://oglinuk.github.io/tags/cmake"><kbd class="item-tag">CMake</kbd></a>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/cpp-0/">hello_c&#43;&#43;.cpp</a></h4>
-    <h5>July 21, 2019</h5>
-    
-    <a href="https://oglinuk.github.io/tags/hello-world"><kbd class="item-tag">Hello World</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/c&#43;&#43;"><kbd class="item-tag">C&#43;&#43;</kbd></a>
     
 
 </div>
