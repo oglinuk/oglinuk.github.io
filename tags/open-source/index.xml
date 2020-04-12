@@ -6,10 +6,28 @@
     <description>Recent content in Open Source on Ponte Posterum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Sep 2019 11:20:58 +1200</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2020 10:36:28 +1200</lastBuildDate>
     
 	<atom:link href="https://oglinuk.github.io/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Alacritty 0</title>
+      <link>https://oglinuk.github.io/post/alacritty-0/</link>
+      <pubDate>Sat, 11 Apr 2020 10:36:28 +1200</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/alacritty-0/</guid>
+      <description>Alacritty If you use Linux then most likely you also use a terminal. One of the things that I still have not gotten used to after switching from windows is how customizable Linux really is. In this case the terminal. The first thing I asked myself when I came across Alacritty is &amp;ldquo;why?&amp;rdquo;. It never clicked until rwxrob made a comment about how he was using Alacritty as his terminal.</description>
+    </item>
+    
+    <item>
+      <title>Vim 0</title>
+      <link>https://oglinuk.github.io/post/vim-0/</link>
+      <pubDate>Sat, 04 Apr 2020 08:27:35 +1200</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/vim-0/</guid>
+      <description>Vim I was first introduced to Vim by my good friend Sam. As someone who tries to work as much in the terminal as possible, Vim was perfect for my text editing needs. Although I&amp;rsquo;ve known/used Vim for a while, it&amp;rsquo;s always basic usage for quick edititing, and its always been a secondary editor to Visual Studio Code. This was because I relied heavily on the intellisense when programming in langauges like Go.</description>
+    </item>
     
     <item>
       <title>Doom 0</title>
