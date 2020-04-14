@@ -6,10 +6,19 @@
     <description>Recent content in Nginx on Ponte Posterum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Apr 2020 11:12:33 +1200</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2020 11:34:19 +1200</lastBuildDate>
     
 	<atom:link href="https://oglinuk.github.io/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nginx 1</title>
+      <link>https://oglinuk.github.io/post/nginx-1/</link>
+      <pubDate>Mon, 13 Apr 2020 11:34:19 +1200</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/nginx-1/</guid>
+      <description>Nginx ~ Subdomains and a Blog In the previous blog we explored serving a Go web application with Nginx on Digital Ocean. This blog is going to cover how to host a static website on a subdomain. One of the things I did not cover in the last blog is how to point to your domain name with Digital Ocean. For more on this please refer to this blog that I found/used originally.</description>
+    </item>
     
     <item>
       <title>Nginx 0</title>

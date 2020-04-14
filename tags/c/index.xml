@@ -6,10 +6,29 @@
     <description>Recent content in C on Ponte Posterum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Apr 2020 08:27:35 +1200</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2020 08:31:38 +1200</lastBuildDate>
     
 	<atom:link href="https://oglinuk.github.io/tags/c/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PTP</title>
+      <link>https://oglinuk.github.io/project/ptp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/project/ptp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quake3 0</title>
+      <link>https://oglinuk.github.io/post/quake3-0/</link>
+      <pubDate>Mon, 13 Apr 2020 08:31:38 +1200</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/quake3-0/</guid>
+      <description>Quake 3 ~ ioquake3 I&amp;rsquo;ve covered DOOM in one of my previous blogs. In this blog I am going to cover how to get Quake 3 arena running. The source port I am going to use is ioquake3. Unlike DOOM, there is no entirely free version of Quake 3. Quake 3 requires .pak files, which can found in the game files after purchasing Quake 3 on steam.
+The following dependencies are required.</description>
+    </item>
     
     <item>
       <title>Vim 0</title>

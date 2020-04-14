@@ -11,6 +11,16 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/post/nginx-1/</loc>
+    <lastmod>2020-04-13T11:34:19+12:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/post/quake3-0/</loc>
+    <lastmod>2020-04-13T08:31:38+12:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/post/nginx-0/</loc>
     <lastmod>2020-04-12T11:12:33+12:00</lastmod>
   </url>
@@ -23,6 +33,11 @@
   <url>
     <loc>https://oglinuk.github.io/post/vim-0/</loc>
     <lastmod>2020-04-04T08:27:35+12:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/post/omega2-0/</loc>
+    <lastmod>2019-10-19T13:46:09+13:00</lastmod>
   </url>
   
   <url>
@@ -446,8 +461,14 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/tags/blogging/</loc>
+    <lastmod>2020-04-13T11:34:19+12:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/tags/c/</loc>
-    <lastmod>2020-04-04T08:27:35+12:00</lastmod>
+    <lastmod>2020-04-13T08:31:38+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -536,7 +557,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/digital-ocean/</loc>
-    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-13T11:34:19+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -596,7 +617,13 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/golang/</loc>
-    <lastmod>2019-09-02T20:27:11+12:00</lastmod>
+    <lastmod>2020-04-12T11:12:33+12:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/tags/hardware/</loc>
+    <lastmod>2019-10-19T13:46:09+13:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -637,6 +664,11 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/tags/javascript/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/tags/knowing/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -656,7 +688,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/linux/</loc>
-    <lastmod>2020-04-11T10:36:28+12:00</lastmod>
+    <lastmod>2020-04-13T08:31:38+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -686,13 +718,13 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/networking/</loc>
-    <lastmod>2018-09-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-19T13:46:09+13:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oglinuk.github.io/tags/nginx/</loc>
-    <lastmod>2020-04-12T11:12:33+12:00</lastmod>
+    <lastmod>2020-04-13T11:34:19+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -716,7 +748,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/open-source/</loc>
-    <lastmod>2020-04-11T10:36:28+12:00</lastmod>
+    <lastmod>2020-04-13T08:31:38+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -729,6 +761,12 @@
   <url>
     <loc>https://oglinuk.github.io/tags/openfaas/</loc>
     <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/tags/openwrt/</loc>
+    <lastmod>2019-10-19T13:46:09+13:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -752,7 +790,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/</loc>
-    <lastmod>2020-04-12T11:12:33+12:00</lastmod>
+    <lastmod>2020-04-13T11:34:19+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -764,7 +802,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/post/</loc>
-    <lastmod>2020-04-12T11:12:33+12:00</lastmod>
+    <lastmod>2020-04-13T11:34:19+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -806,6 +844,12 @@
   <url>
     <loc>https://oglinuk.github.io/tags/python/</loc>
     <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/tags/quake3/</loc>
+    <lastmod>2020-04-13T08:31:38+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -870,6 +914,12 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/tags/systemd/</loc>
+    <lastmod>2020-04-12T11:12:33+12:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/tags/</loc>
     <lastmod>2019-04-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -919,7 +969,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/web-development/</loc>
-    <lastmod>2020-04-12T11:12:33+12:00</lastmod>
+    <lastmod>2020-04-13T11:34:19+12:00</lastmod>
     <priority>0</priority>
   </url>
   

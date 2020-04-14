@@ -6,7 +6,7 @@
     <description>Recent content on Ponte Posterum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Apr 2020 11:12:33 +1200</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2020 11:34:19 +1200</lastBuildDate>
     
 	<atom:link href="https://oglinuk.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,6 +27,25 @@
       
       <guid>https://oglinuk.github.io/project/ptp/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Nginx 1</title>
+      <link>https://oglinuk.github.io/post/nginx-1/</link>
+      <pubDate>Mon, 13 Apr 2020 11:34:19 +1200</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/nginx-1/</guid>
+      <description>Nginx ~ Subdomains and a Blog In the previous blog we explored serving a Go web application with Nginx on Digital Ocean. This blog is going to cover how to host a static website on a subdomain. One of the things I did not cover in the last blog is how to point to your domain name with Digital Ocean. For more on this please refer to this blog that I found/used originally.</description>
+    </item>
+    
+    <item>
+      <title>Quake3 0</title>
+      <link>https://oglinuk.github.io/post/quake3-0/</link>
+      <pubDate>Mon, 13 Apr 2020 08:31:38 +1200</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/quake3-0/</guid>
+      <description>Quake 3 ~ ioquake3 I&amp;rsquo;ve covered DOOM in one of my previous blogs. In this blog I am going to cover how to get Quake 3 arena running. The source port I am going to use is ioquake3. Unlike DOOM, there is no entirely free version of Quake 3. Quake 3 requires .pak files, which can found in the game files after purchasing Quake 3 on steam.
+The following dependencies are required.</description>
     </item>
     
     <item>
@@ -54,6 +73,15 @@
       
       <guid>https://oglinuk.github.io/post/vim-0/</guid>
       <description>Vim I was first introduced to Vim by my good friend Sam. As someone who tries to work as much in the terminal as possible, Vim was perfect for my text editing needs. Although I&amp;rsquo;ve known/used Vim for a while, it&amp;rsquo;s always basic usage for quick edititing, and its always been a secondary editor to Visual Studio Code. This was because I relied heavily on the intellisense when programming in langauges like Go.</description>
+    </item>
+    
+    <item>
+      <title>Omega2 0</title>
+      <link>https://oglinuk.github.io/post/omega2-0/</link>
+      <pubDate>Sat, 19 Oct 2019 13:46:09 +1300</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/omega2-0/</guid>
+      <description>Onion Omega 2 During a Python meetup one of my tutors Mark showed me a new device he had purchased from kickstarter called the onion omega 2. All that I knew at the time was that it was a smaller version of a raspberry pi. When I first got my hands on one I found out it was so much more under the hood. The first things to note is the unit itself needs another component (a dock).</description>
     </item>
     
     <item>
