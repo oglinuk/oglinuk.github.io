@@ -11,6 +11,11 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/post/shell-0/</loc>
+    <lastmod>2020-04-19T00:17:28+12:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/post/arch-0/</loc>
     <lastmod>2020-04-15T06:15:42+12:00</lastmod>
   </url>
@@ -699,7 +704,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/linux/</loc>
-    <lastmod>2020-04-15T06:15:42+12:00</lastmod>
+    <lastmod>2020-04-19T00:17:28+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -759,7 +764,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/open-source/</loc>
-    <lastmod>2020-04-15T06:15:42+12:00</lastmod>
+    <lastmod>2020-04-19T00:17:28+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -801,7 +806,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/</loc>
-    <lastmod>2020-04-15T06:15:42+12:00</lastmod>
+    <lastmod>2020-04-19T00:17:28+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -813,7 +818,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/post/</loc>
-    <lastmod>2020-04-15T06:15:42+12:00</lastmod>
+    <lastmod>2020-04-19T00:17:28+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -915,6 +920,12 @@
   <url>
     <loc>https://oglinuk.github.io/tags/serverless/</loc>
     <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/tags/shell/</loc>
+    <lastmod>2020-04-19T00:17:28+12:00</lastmod>
     <priority>0</priority>
   </url>
   

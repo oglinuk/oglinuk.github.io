@@ -446,7 +446,7 @@
     <item>
       <title>Linux</title>
       <link>https://oglinuk.github.io/tags/linux/</link>
-      <pubDate>Wed, 15 Apr 2020 06:15:42 +1200</pubDate>
+      <pubDate>Sun, 19 Apr 2020 00:17:28 +1200</pubDate>
       
       <guid>https://oglinuk.github.io/tags/linux/</guid>
       <description></description>
@@ -536,7 +536,7 @@
     <item>
       <title>Open Source</title>
       <link>https://oglinuk.github.io/tags/open-source/</link>
-      <pubDate>Wed, 15 Apr 2020 06:15:42 +1200</pubDate>
+      <pubDate>Sun, 19 Apr 2020 00:17:28 +1200</pubDate>
       
       <guid>https://oglinuk.github.io/tags/open-source/</guid>
       <description></description>
@@ -746,6 +746,15 @@
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://oglinuk.github.io/tags/serverless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shell</title>
+      <link>https://oglinuk.github.io/tags/shell/</link>
+      <pubDate>Sun, 19 Apr 2020 00:17:28 +1200</pubDate>
+      
+      <guid>https://oglinuk.github.io/tags/shell/</guid>
       <description></description>
     </item>
     

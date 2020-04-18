@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Tmux</title>
+        <title>Shell 0</title>
         
         <style>
 
@@ -80,7 +80,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Tmux</a>
+                    <a class="navbar-brand visible-xs" href="#">Shell 0</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -136,44 +136,6 @@
     
     
 
-    <h4><a href="/post/tmux/">Tmux</a></h4>
-    <h5>November 20, 2018</h5>
-    
-    <a href="https://oglinuk.github.io/tags/terminal-multiplexer"><kbd class="item-tag">Terminal Multiplexer</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/linux"><kbd class="item-tag">Linux</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/development"><kbd class="item-tag">Development</kbd></a>
-    
-
-</div>
-
-
-    <br> <div class="text-justify">
-
-<h1 id="tmux-terminal-multiplexer">Tmux - Terminal Multiplexer</h1>
-
-<p>If you&rsquo;re like me then you use a terminal a <em>lot</em>. If you were me 20 minutes ago then you would also have multiple terminal tabs open with various applications running. I had heard of an application from some of my peers before about the ability to open multiple terminal panes within the same terminal window. For a while I didn&rsquo;t look into it, but then (about 20 minutes ago) I had enough of swapping between terminal tabs and the editor I had been using (vscode). The software that I was told about was called screen, which is what is called a <em>terminal multiplexer</em>. After doing some research I found another terminal multiplexer (called tmux) that seemed to be a good contender to screen. I decided that I would try out tmux and see how it goes. With a quick and easy <code>yay tmux</code> the software was installed. The next thing to do is look for a cheatsheet, which after a quick search I found <a href="https://tmuxcheatsheet.com">one</a>.</p>
-
-<p>I have to say, after using tmux for only about 10 - 15 minutes, I am already finding myself absolutely loving it. Not only do I feel more comfortable using Vim as my primary editor now, but I also feel more effective/productive. The commands for using tmux aren&rsquo;t even that difficult. To start, we create a new tmux session, this is done by entering the command <code>tmux</code>. The next thing from here is either create a new window (which is done via <code>ctrl + b ~ c</code>) or split the pane (vertically -&gt; <code>ctrl + b ~ %</code> or horizontially -&gt; <code>ctrl + b ~ &quot;</code>). To swap between windows, the command is <code>ctrl + b ~ n (for next) or p (for previous)</code>. To swap between panes, the command is <code>ctrl + b ~ arrow key direction</code>. For the icing on the cake there is an ability to <em>detach</em> from the session, which to explain in simple terms, it essentially suspends the session. To re-activate the session, simply enter the command <code>tmux attach</code>. One thing that tripped me up when using tmux was <em>scrolling</em>. A quick glance at the cheatsheet showed that you can scroll by entering copy mode (<code>ctrl + b ~ [</code>), then using the arrow keys.</p>
-</div>
-
-    
-    
-
-    
-
-        <h4 class="page-header">Related</h4>
-
-         <div class="item">
-
-    
-    
-    
-
-    
-    
-
     <h4><a href="/post/shell-0/">Shell 0</a></h4>
     <h5>April 19, 2020</h5>
     
@@ -185,7 +147,35 @@
     
 
 </div>
-  <div class="item">
+
+
+    <br> <div class="text-justify">
+
+<h1 id="unix-shell">Unix Shell</h1>
+
+<p>It has been almost 3 years since I made the the switch to Linux, and have enjoyed every moment. Like most, I found the terminal to be a daunting thing at first, much like Linux itself. I quickly discovered how much more I enjoyed using a terminal over GUI applications. Though I have gotten by over the past years with the basic commands like <code>cd</code> or <code>rm</code>, I never really dedicated time to improving my skills with the command line.</p>
+
+<p>This is going to be the first of many blogs aimed to record my learnings and discoveries with the Linux shell. Before I go any further I just want to stop and take a moment to recognize the many who have contributed to projects that have shaped the world as we know it today. Thank you. You are amazing and I will forever remember what you have done for not only me but all of those who use the things you have helped create.</p>
+
+<p>One of those wonderful humans is <a href="http://www.linuxcommand.org">William Shotts</a>, who is the author of the book <a href="http://www.linuxcommand.org/tlcl.php">The Linux Command Line</a>. This is a freely available book (in pdf form) under the Creative Commons Attribution-Noncommercial-No De-rivative Works 3.0 license. If you ever read this blog William, thank you.</p>
+
+<p>Now I can&rsquo;t think of a better reason to learn the shell than the one that William gives on his website. &ldquo;A few years ago we had a problem where I used to work. There was a shared drive on one of our file servers that kept getting full. I won&rsquo;t mention that this legacy operating system did not support user quotas; that&rsquo;s another story. But the server kept getting full and it stopped people from working. One of our software engineers spent the better part of a day writing a C++ program that would look through all the user&rsquo;s directories and add up the space they were using and make a listing of the results. Since I was forced to use the legacy OS while I was on the job, I installed a Linux-like command line environment for it. When I heard about the problem, I realized I could do all the work this engineer had done with this single line:</p>
+
+<p><code>du -s * | sort -nr &gt; $HOME/user_space_report.txt</code>.&rdquo; <a href="http://www.linuxcommand.org/lc3_learning_the_shell.php">[source]</a></p>
+
+<p>Not only did this make me laugh, but this also made me realize just how <em>powerful</em> the shell can be. Lets take this command as the first to deconstruct and understand. <code>man du</code> shows that the <code>du</code> command is used to summarize the disk usage of a set of files, recursively for directories. The <code>-s</code> flag is to display only a total for each argument, which in this case is the wildcard <code>*</code>. The <code>|</code> means that we pipe the output of the first command to the command that follows after the <code>|</code>. <code>man sort</code> shows that <code>sort</code> is used to write the sorted concatenation of all file(s) to standard output. The <code>n</code> flag is to compare according to string numerical value, and the <code>r</code> flag is to reverse the result of the comparisons. The result of those two commands are then redirected via <code>&gt;</code> to a file called <code>user_space_report.txt</code>.</p>
+
+<p>Truly amazing.</p>
+</div>
+
+    
+    
+
+    
+
+        <h4 class="page-header">Related</h4>
+
+         <div class="item">
 
     
     
@@ -222,6 +212,28 @@
     <a href="https://oglinuk.github.io/tags/c"><kbd class="item-tag">C</kbd></a>
     
     <a href="https://oglinuk.github.io/tags/linux"><kbd class="item-tag">Linux</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/open-source"><kbd class="item-tag">Open Source</kbd></a>
+    
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/alacritty-0/">Alacritty 0</a></h4>
+    <h5>April 11, 2020</h5>
+    
+    <a href="https://oglinuk.github.io/tags/alacrity"><kbd class="item-tag">Alacrity</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/linux"><kbd class="item-tag">Linux</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/rust"><kbd class="item-tag">Rust</kbd></a>
     
     <a href="https://oglinuk.github.io/tags/open-source"><kbd class="item-tag">Open Source</kbd></a>
     

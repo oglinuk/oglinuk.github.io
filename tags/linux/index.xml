@@ -6,10 +6,19 @@
     <description>Recent content in Linux on Ponte Posterum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Apr 2020 06:15:42 +1200</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2020 00:17:28 +1200</lastBuildDate>
     
 	<atom:link href="https://oglinuk.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Shell 0</title>
+      <link>https://oglinuk.github.io/post/shell-0/</link>
+      <pubDate>Sun, 19 Apr 2020 00:17:28 +1200</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/shell-0/</guid>
+      <description>Unix Shell It has been almost 3 years since I made the the switch to Linux, and have enjoyed every moment. Like most, I found the terminal to be a daunting thing at first, much like Linux itself. I quickly discovered how much more I enjoyed using a terminal over GUI applications. Though I have gotten by over the past years with the basic commands like cd or rm, I never really dedicated time to improving my skills with the command line.</description>
+    </item>
     
     <item>
       <title>Arch 0</title>
