@@ -11,6 +11,11 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/post/arch-0/</loc>
+    <lastmod>2020-04-15T06:15:42+12:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/post/nginx-1/</loc>
     <lastmod>2020-04-13T11:34:19+12:00</lastmod>
   </url>
@@ -431,6 +436,12 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/tags/arch/</loc>
+    <lastmod>2020-04-15T06:15:42+12:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/tags/auction-system/</loc>
     <lastmod>2019-05-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -688,7 +699,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/linux/</loc>
-    <lastmod>2020-04-13T08:31:38+12:00</lastmod>
+    <lastmod>2020-04-15T06:15:42+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -748,7 +759,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/open-source/</loc>
-    <lastmod>2020-04-13T08:31:38+12:00</lastmod>
+    <lastmod>2020-04-15T06:15:42+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -790,7 +801,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/</loc>
-    <lastmod>2020-04-13T11:34:19+12:00</lastmod>
+    <lastmod>2020-04-15T06:15:42+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -802,7 +813,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/post/</loc>
-    <lastmod>2020-04-13T11:34:19+12:00</lastmod>
+    <lastmod>2020-04-15T06:15:42+12:00</lastmod>
     <priority>0</priority>
   </url>
   
