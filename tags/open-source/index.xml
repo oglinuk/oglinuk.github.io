@@ -6,7 +6,7 @@
     <description>Recent content in Open Source on Ponte Posterum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Apr 2020 00:17:28 +1200</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2020 01:09:38 +1200</lastBuildDate>
     
 	<atom:link href="https://oglinuk.github.io/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,6 +18,15 @@
       
       <guid>https://oglinuk.github.io/project/sbh/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Shell 1</title>
+      <link>https://oglinuk.github.io/post/shell-1/</link>
+      <pubDate>Sun, 19 Apr 2020 01:09:38 +1200</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/shell-1/</guid>
+      <description>Linux Shell If you are using a debian based Linux distribution like I am, then the shell you are using whats called BASH or &amp;ldquo;Bourne Again SHell&amp;rdquo;, which is a GNU project created by Brian Fox. Another amazing human being. If you ever happen to read this blog Brian, thank you. To interact with the shell we use another program called a terminal emulator, which in my case is alacritty (thanks to rwxrob for showing me and the 276 current people working on it).</description>
     </item>
     
     <item>
@@ -91,6 +100,24 @@ The following dependencies are required.</description>
       
       <guid>https://oglinuk.github.io/post/ai-0/</guid>
       <description>Artificial Intelligence This is going to be the first of many blogs that I am excited to write as this topic is what peeks my interest within the IT industry and never ceases to amaze me. I was introduced to the field by my good friend Krupesh, who was also the one that got me into Python back in 2017. Since then I knew that my dream career would be within the field of AI.</description>
+    </item>
+    
+    <item>
+      <title>Tmux 0</title>
+      <link>https://oglinuk.github.io/post/tmux-0/</link>
+      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/tmux-0/</guid>
+      <description>Tmux - Terminal Multiplexer If you&amp;rsquo;re like me then you use a terminal a lot. If you were me 20 minutes ago then you would also have multiple terminal tabs open with various applications running. I had heard of an application from some of my peers before about the ability to open multiple terminal panes within the same terminal window. For a while I didn&amp;rsquo;t look into it, but then (about 20 minutes ago) I had enough of swapping between terminal tabs and the editor I had been using (vscode).</description>
+    </item>
+    
+    <item>
+      <title>fdisk 0</title>
+      <link>https://oglinuk.github.io/post/fdisk-0/</link>
+      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/fdisk-0/</guid>
+      <description>fdisk Partitioning? No not mathematics partitions, computer partitions. More specifically hardware partitions (in my case a microSD card). I am officially put off GUIs and am taking a hiatus from them. My raspberry pi&amp;rsquo;s microSD card isn&amp;rsquo;t being used at the moment, so I am formatting it to be used as storage for pcap files that I am capturing on my network. Perfect time to learn how to partition drives from the terminal!</description>
     </item>
     
     <item>

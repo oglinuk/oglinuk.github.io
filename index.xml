@@ -6,7 +6,7 @@
     <description>Recent content on Ponte Posterum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Apr 2020 00:17:28 +1200</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2020 18:33:38 +1200</lastBuildDate>
     
 	<atom:link href="https://oglinuk.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,6 +27,24 @@
       
       <guid>https://oglinuk.github.io/project/ptp/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>hello_c.c</title>
+      <link>https://oglinuk.github.io/post/c-0/</link>
+      <pubDate>Mon, 20 Apr 2020 18:33:38 +1200</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/c-0/</guid>
+      <description>C Well I always new this day was going to come. Originally I was going to learn C++ and not C, but rwxrob has convinced me otherwise. His reasoning? &amp;ldquo;The C programming language is mandatory learning for anyone who truly wants to understand how all languages and digital computers work.&amp;rdquo; [source] For me, the reason why I decided on learning C is because I want to someday contribute to projects I use and love like the Linux kernel, Lynx, Tmux, and so on.</description>
+    </item>
+    
+    <item>
+      <title>Shell 1</title>
+      <link>https://oglinuk.github.io/post/shell-1/</link>
+      <pubDate>Sun, 19 Apr 2020 01:09:38 +1200</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/shell-1/</guid>
+      <description>Linux Shell If you are using a debian based Linux distribution like I am, then the shell you are using whats called BASH or &amp;ldquo;Bourne Again SHell&amp;rdquo;, which is a GNU project created by Brian Fox. Another amazing human being. If you ever happen to read this blog Brian, thank you. To interact with the shell we use another program called a terminal emulator, which in my case is alacritty (thanks to rwxrob for showing me and the 276 current people working on it).</description>
     </item>
     
     <item>
@@ -121,11 +139,11 @@ The following dependencies are required.</description>
     </item>
     
     <item>
-      <title>Goccer</title>
-      <link>https://oglinuk.github.io/post/goccer/</link>
+      <title>Goccer 0</title>
+      <link>https://oglinuk.github.io/post/goccer-0/</link>
       <pubDate>Mon, 02 Sep 2019 20:27:11 +1200</pubDate>
       
-      <guid>https://oglinuk.github.io/post/goccer/</guid>
+      <guid>https://oglinuk.github.io/post/goccer-0/</guid>
       <description>Goccer ~ Go Concurrent Web Crawler In one of the classes during my bachelor of IT, I started making my first program in Golang. That first program is what is now know as goccer. The idea behind the program was inspired by my fascination of web crawling. This blog is not going to cover every part of goccer, but will cover the key components. It will also cover the issues I ran into and the solution(s) that I used to overcome the problem(s).</description>
     </item>
     
@@ -469,12 +487,12 @@ import time import redis from flask import Flask app = Flask(__name__) cache = r
     
     <item>
       <title>hello_rust.rs</title>
-      <link>https://oglinuk.github.io/post/hello-rust/</link>
+      <link>https://oglinuk.github.io/post/rust-0/</link>
       <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://oglinuk.github.io/post/hello-rust/</guid>
-      <description>Why Rust? The first question anyone might ask themselves when they read the title. This is an extremely valid question, since why if one could learn something as simple as Python, would one want to learn a language like Rust? I know this because that was the first question that I asked. The answer is not entirely formulated as I still learn new and exciting things everyday.
-The why&amp;rsquo;s What I can say is that for one Rust is fast.</description>
+      <guid>https://oglinuk.github.io/post/rust-0/</guid>
+      <description>Rust The first question anyone might ask themselves when they read the title. This is an extremely valid question, since why if one could learn something as simple as Python, would one want to learn a language like Rust? I know this because that was the first question that I asked. The answer is not entirely formulated as I still learn new and exciting things everyday.
+What I can say is that for one Rust is fast.</description>
     </item>
     
     <item>
@@ -617,12 +635,12 @@ The first speaker of the day was Kingseley, the event organizer and another favo
     </item>
     
     <item>
-      <title>Bmus</title>
-      <link>https://oglinuk.github.io/post/bmus/</link>
+      <title>BMUS 0</title>
+      <link>https://oglinuk.github.io/post/bmus-0/</link>
       <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://oglinuk.github.io/post/bmus/</guid>
-      <description>Bmus ~ Back Me Up Scotty Taking backups of devices is something that more often than not people don&amp;rsquo;t do, and this includes myself. Prior to my bachelor&amp;rsquo;s I never took backups or even thought about them. Looking back I reee internally everytime I think about how much I would have lost if something had happened to my laptops or desktops over the years. Don&amp;rsquo;t be like the 2015 me, take regular backups&amp;hellip; Ever since a friend of mine, Nick got me into Linux I have been learning new things everyday, from built in commands, to the various things that can be done from the terminal.</description>
+      <guid>https://oglinuk.github.io/post/bmus-0/</guid>
+      <description>BMUS ~ Back Me Up Scotty Taking backups of devices is something that more often than not people don&amp;rsquo;t do, and this includes myself. Prior to my bachelor&amp;rsquo;s I never took backups or even thought about them. Looking back I reee internally everytime I think about how much I would have lost if something had happened to my laptops or desktops over the years. Don&amp;rsquo;t be like the 2015 me, take regular backups&amp;hellip; Ever since a friend of mine, Nick got me into Linux I have been learning new things everyday, from built in commands, to the various things that can be done from the terminal.</description>
     </item>
     
     <item>
@@ -635,21 +653,21 @@ The first speaker of the day was Kingseley, the event organizer and another favo
     </item>
     
     <item>
-      <title>Partitioning</title>
-      <link>https://oglinuk.github.io/post/partitioning/</link>
+      <title>Tmux 0</title>
+      <link>https://oglinuk.github.io/post/tmux-0/</link>
       <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://oglinuk.github.io/post/partitioning/</guid>
-      <description>Partitioning Partitioning? No not mathematics partitions, computer partitions. More specifically hardware partitions (in my case a microSD card). I am officially put off GUIs and am taking a hiatus from them. My raspberry pi&amp;rsquo;s microSDD card isn&amp;rsquo;t being used at the moment, so I am formatting it to be used as storage for pcap files that I am capturing on my network. Perfect time to learn how to partition drives from the terminal!</description>
+      <guid>https://oglinuk.github.io/post/tmux-0/</guid>
+      <description>Tmux - Terminal Multiplexer If you&amp;rsquo;re like me then you use a terminal a lot. If you were me 20 minutes ago then you would also have multiple terminal tabs open with various applications running. I had heard of an application from some of my peers before about the ability to open multiple terminal panes within the same terminal window. For a while I didn&amp;rsquo;t look into it, but then (about 20 minutes ago) I had enough of swapping between terminal tabs and the editor I had been using (vscode).</description>
     </item>
     
     <item>
-      <title>Tmux</title>
-      <link>https://oglinuk.github.io/post/tmux/</link>
+      <title>fdisk 0</title>
+      <link>https://oglinuk.github.io/post/fdisk-0/</link>
       <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://oglinuk.github.io/post/tmux/</guid>
-      <description>Tmux - Terminal Multiplexer If you&amp;rsquo;re like me then you use a terminal a lot. If you were me 20 minutes ago then you would also have multiple terminal tabs open with various applications running. I had heard of an application from some of my peers before about the ability to open multiple terminal panes within the same terminal window. For a while I didn&amp;rsquo;t look into it, but then (about 20 minutes ago) I had enough of swapping between terminal tabs and the editor I had been using (vscode).</description>
+      <guid>https://oglinuk.github.io/post/fdisk-0/</guid>
+      <description>fdisk Partitioning? No not mathematics partitions, computer partitions. More specifically hardware partitions (in my case a microSD card). I am officially put off GUIs and am taking a hiatus from them. My raspberry pi&amp;rsquo;s microSD card isn&amp;rsquo;t being used at the moment, so I am formatting it to be used as storage for pcap files that I am capturing on my network. Perfect time to learn how to partition drives from the terminal!</description>
     </item>
     
     <item>

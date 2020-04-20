@@ -6,10 +6,19 @@
     <description>Recent content in Shell on Ponte Posterum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Apr 2020 00:17:28 +1200</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2020 01:09:38 +1200</lastBuildDate>
     
 	<atom:link href="https://oglinuk.github.io/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Shell 1</title>
+      <link>https://oglinuk.github.io/post/shell-1/</link>
+      <pubDate>Sun, 19 Apr 2020 01:09:38 +1200</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/shell-1/</guid>
+      <description>Linux Shell If you are using a debian based Linux distribution like I am, then the shell you are using whats called BASH or &amp;ldquo;Bourne Again SHell&amp;rdquo;, which is a GNU project created by Brian Fox. Another amazing human being. If you ever happen to read this blog Brian, thank you. To interact with the shell we use another program called a terminal emulator, which in my case is alacritty (thanks to rwxrob for showing me and the 276 current people working on it).</description>
+    </item>
     
     <item>
       <title>Shell 0</title>

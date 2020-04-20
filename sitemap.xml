@@ -11,6 +11,16 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/post/c-0/</loc>
+    <lastmod>2020-04-20T18:33:38+12:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oglinuk.github.io/post/shell-1/</loc>
+    <lastmod>2020-04-19T01:09:38+12:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/post/shell-0/</loc>
     <lastmod>2020-04-19T00:17:28+12:00</lastmod>
   </url>
@@ -61,7 +71,7 @@
   </url>
   
   <url>
-    <loc>https://oglinuk.github.io/post/goccer/</loc>
+    <loc>https://oglinuk.github.io/post/goccer-0/</loc>
     <lastmod>2019-09-02T20:27:11+12:00</lastmod>
   </url>
   
@@ -241,7 +251,7 @@
   </url>
   
   <url>
-    <loc>https://oglinuk.github.io/post/hello-rust/</loc>
+    <loc>https://oglinuk.github.io/post/rust-0/</loc>
     <lastmod>2019-03-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -321,7 +331,7 @@
   </url>
   
   <url>
-    <loc>https://oglinuk.github.io/post/bmus/</loc>
+    <loc>https://oglinuk.github.io/post/bmus-0/</loc>
     <lastmod>2018-11-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -331,12 +341,12 @@
   </url>
   
   <url>
-    <loc>https://oglinuk.github.io/post/partitioning/</loc>
+    <loc>https://oglinuk.github.io/post/tmux-0/</loc>
     <lastmod>2018-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://oglinuk.github.io/post/tmux/</loc>
+    <loc>https://oglinuk.github.io/post/fdisk-0/</loc>
     <lastmod>2018-11-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -484,7 +494,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/c/</loc>
-    <lastmod>2020-04-13T08:31:38+12:00</lastmod>
+    <lastmod>2020-04-20T18:33:38+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -562,12 +572,6 @@
   <url>
     <loc>https://oglinuk.github.io/tags/deep-learning/</loc>
     <lastmod>2019-09-03T23:41:56+12:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://oglinuk.github.io/tags/development/</loc>
-    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -651,7 +655,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/hello-world/</loc>
-    <lastmod>2019-07-21T06:17:33+12:00</lastmod>
+    <lastmod>2020-04-20T18:33:38+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -704,7 +708,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/linux/</loc>
-    <lastmod>2020-04-19T00:17:28+12:00</lastmod>
+    <lastmod>2020-04-19T01:09:38+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -764,7 +768,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/open-source/</loc>
-    <lastmod>2020-04-19T00:17:28+12:00</lastmod>
+    <lastmod>2020-04-19T01:09:38+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -806,7 +810,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/</loc>
-    <lastmod>2020-04-19T00:17:28+12:00</lastmod>
+    <lastmod>2020-04-20T18:33:38+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -818,7 +822,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/post/</loc>
-    <lastmod>2020-04-19T00:17:28+12:00</lastmod>
+    <lastmod>2020-04-20T18:33:38+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -925,7 +929,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/shell/</loc>
-    <lastmod>2020-04-19T00:17:28+12:00</lastmod>
+    <lastmod>2020-04-19T01:09:38+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -948,13 +952,7 @@
   </url>
   
   <url>
-    <loc>https://oglinuk.github.io/tags/terminal/</loc>
-    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://oglinuk.github.io/tags/terminal-multiplexer/</loc>
+    <loc>https://oglinuk.github.io/tags/tmux/</loc>
     <lastmod>2018-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

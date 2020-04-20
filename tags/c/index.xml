@@ -6,7 +6,7 @@
     <description>Recent content in C on Ponte Posterum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Apr 2020 08:31:38 +1200</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2020 18:33:38 +1200</lastBuildDate>
     
 	<atom:link href="https://oglinuk.github.io/tags/c/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,6 +18,15 @@
       
       <guid>https://oglinuk.github.io/project/ptp/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>hello_c.c</title>
+      <link>https://oglinuk.github.io/post/c-0/</link>
+      <pubDate>Mon, 20 Apr 2020 18:33:38 +1200</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/c-0/</guid>
+      <description>C Well I always new this day was going to come. Originally I was going to learn C++ and not C, but rwxrob has convinced me otherwise. His reasoning? &amp;ldquo;The C programming language is mandatory learning for anyone who truly wants to understand how all languages and digital computers work.&amp;rdquo; [source] For me, the reason why I decided on learning C is because I want to someday contribute to projects I use and love like the Linux kernel, Lynx, Tmux, and so on.</description>
     </item>
     
     <item>

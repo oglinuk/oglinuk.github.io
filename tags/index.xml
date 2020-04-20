@@ -122,7 +122,7 @@
     <item>
       <title>C</title>
       <link>https://oglinuk.github.io/tags/c/</link>
-      <pubDate>Mon, 13 Apr 2020 08:31:38 +1200</pubDate>
+      <pubDate>Mon, 20 Apr 2020 18:33:38 +1200</pubDate>
       
       <guid>https://oglinuk.github.io/tags/c/</guid>
       <description></description>
@@ -233,15 +233,6 @@
       <pubDate>Tue, 03 Sep 2019 23:41:56 +1200</pubDate>
       
       <guid>https://oglinuk.github.io/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Development</title>
-      <link>https://oglinuk.github.io/tags/development/</link>
-      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://oglinuk.github.io/tags/development/</guid>
       <description></description>
     </item>
     
@@ -365,7 +356,7 @@
     <item>
       <title>Hello World</title>
       <link>https://oglinuk.github.io/tags/hello-world/</link>
-      <pubDate>Sun, 21 Jul 2019 06:17:33 +1200</pubDate>
+      <pubDate>Mon, 20 Apr 2020 18:33:38 +1200</pubDate>
       
       <guid>https://oglinuk.github.io/tags/hello-world/</guid>
       <description></description>
@@ -446,7 +437,7 @@
     <item>
       <title>Linux</title>
       <link>https://oglinuk.github.io/tags/linux/</link>
-      <pubDate>Sun, 19 Apr 2020 00:17:28 +1200</pubDate>
+      <pubDate>Sun, 19 Apr 2020 01:09:38 +1200</pubDate>
       
       <guid>https://oglinuk.github.io/tags/linux/</guid>
       <description></description>
@@ -536,7 +527,7 @@
     <item>
       <title>Open Source</title>
       <link>https://oglinuk.github.io/tags/open-source/</link>
-      <pubDate>Sun, 19 Apr 2020 00:17:28 +1200</pubDate>
+      <pubDate>Sun, 19 Apr 2020 01:09:38 +1200</pubDate>
       
       <guid>https://oglinuk.github.io/tags/open-source/</guid>
       <description></description>
@@ -752,7 +743,7 @@
     <item>
       <title>Shell</title>
       <link>https://oglinuk.github.io/tags/shell/</link>
-      <pubDate>Sun, 19 Apr 2020 00:17:28 +1200</pubDate>
+      <pubDate>Sun, 19 Apr 2020 01:09:38 +1200</pubDate>
       
       <guid>https://oglinuk.github.io/tags/shell/</guid>
       <description></description>
@@ -777,20 +768,11 @@
     </item>
     
     <item>
-      <title>Terminal</title>
-      <link>https://oglinuk.github.io/tags/terminal/</link>
+      <title>Tmux</title>
+      <link>https://oglinuk.github.io/tags/tmux/</link>
       <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://oglinuk.github.io/tags/terminal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Terminal Multiplexer</title>
-      <link>https://oglinuk.github.io/tags/terminal-multiplexer/</link>
-      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://oglinuk.github.io/tags/terminal-multiplexer/</guid>
+      <guid>https://oglinuk.github.io/tags/tmux/</guid>
       <description></description>
     </item>
     

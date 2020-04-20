@@ -31,12 +31,12 @@
     
     <item>
       <title>hello_rust.rs</title>
-      <link>https://oglinuk.github.io/post/hello-rust/</link>
+      <link>https://oglinuk.github.io/post/rust-0/</link>
       <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://oglinuk.github.io/post/hello-rust/</guid>
-      <description>Why Rust? The first question anyone might ask themselves when they read the title. This is an extremely valid question, since why if one could learn something as simple as Python, would one want to learn a language like Rust? I know this because that was the first question that I asked. The answer is not entirely formulated as I still learn new and exciting things everyday.
-The why&amp;rsquo;s What I can say is that for one Rust is fast.</description>
+      <guid>https://oglinuk.github.io/post/rust-0/</guid>
+      <description>Rust The first question anyone might ask themselves when they read the title. This is an extremely valid question, since why if one could learn something as simple as Python, would one want to learn a language like Rust? I know this because that was the first question that I asked. The answer is not entirely formulated as I still learn new and exciting things everyday.
+What I can say is that for one Rust is fast.</description>
     </item>
     
   </channel>

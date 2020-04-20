@@ -58,14 +58,5 @@ The first part of the lab covers configuration injection with environment variab
       <description>Web Development 701 ~ OpenFaas As stated in the previous blog, the first exposure to serverless was OpenFaaS. Whether its because of bias of the first exposure or because of bias towards docker, I am going to be exploring OpenFaaS for the serverless implementation of assessment three. First thing to do like anything is to head to the documentation section. &amp;ldquo;OpenFaaS (Functions as a Service) is a framework for building serverless functions with Docker and Kubernetes which has first class support for metrics.</description>
     </item>
     
-    <item>
-      <title>Partitioning</title>
-      <link>https://oglinuk.github.io/post/partitioning/</link>
-      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://oglinuk.github.io/post/partitioning/</guid>
-      <description>Partitioning Partitioning? No not mathematics partitions, computer partitions. More specifically hardware partitions (in my case a microSD card). I am officially put off GUIs and am taking a hiatus from them. My raspberry pi&amp;rsquo;s microSDD card isn&amp;rsquo;t being used at the moment, so I am formatting it to be used as storage for pcap files that I am capturing on my network. Perfect time to learn how to partition drives from the terminal!</description>
-    </item>
-    
   </channel>
 </rss>
