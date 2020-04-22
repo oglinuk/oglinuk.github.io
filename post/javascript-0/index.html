@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+         
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>hello_js.js</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: gray;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://oglinuk.github.io/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/rust.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javascript.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.40.1" />
+        
+
+        
+    </head>
+
+    
+    
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    
+
+    <body>
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">hello_js.js</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/post/">Posts</a></li>
+                            
+                                <li><a href="/project/">Projects</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:daniel-l-black@protonmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/oglinuk/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/danielblackamericankiwi/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.reddit.com/u/linukbot/"><i class="fa fa-reddit"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/javascript-0/">hello_js.js</a></h4>
+    <h5>April 22, 2020</h5>
+    
+    <a href="https://oglinuk.github.io/tags/hello-world"><kbd class="item-tag">Hello World</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/javascript"><kbd class="item-tag">JavaScript</kbd></a>
+    
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+<h1 id="javascript">JavaScript</h1>
+
+<p>JavaScript is everywhere. Along side HTML and CSS, JavaScript is what powers most websites on the <a href="https://en.wikipedia.org/wiki/World_Wide_Web">world wide web</a>. I&rsquo;ve known the very basics of JavaScript for a while now, but have never really spent time to learn it more than just simple functionality. For my learnings, I will be using another resource that was suggested by <a href="https://gitlab.com/rwxrob">rwxrob</a> called <a href="https://eloquentjavascript.net/">Eloquent JavaScript</a>, which was written by yet another amazing human being; <a href="https://marijnhaverbeke.nl/">Marijn Haverbeke</a>. If you ever happen to read this blog Marijn, thank you. The book is freely available under the <a href="https://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribute-NonCommercial 3.0 license</a>, and can be downloaded as a <a href="https://eloquentjavascript.net/Eloquent_JavaScript.pdf">pdf</a>. I would also like to thank the <a href="https://eloquentjavascript.net/backers3.html">325 backers</a> who helped financially fund the book, one person who I actually know! If you ever read this blog <a href="https://belma.dev/">Belma Gaukrodger</a>, thank you!</p>
+
+<p>Chapter 1 of the book covers <code>values</code>, <code>types</code>, and <code>operators</code>. Before it goes into that it covers <em>bits</em> and how to express numbers in binary. I have to say representing numbers in binary never really clicked until now which is kind of odd cause it seems simplistic. The number they use is 13, but I am going to challenge myself and represent the famous number 1729 for practice.</p>
+
+<pre><code>  1   1   0   1  1  0  0  0 0 0 1
+1024 512 256 128 64 32 16 8 4 2 1
+</code></pre>
+
+<p>Make sense? If not then think of it this way. You add the values of a base 2 number line to sum a desired number (in this case 1729). Any numbers used to sum the number are represented by a 1, any that are notare represented by a 0. So to sum 1729 we add 1024 + 512 + 128 + 64 + 1, and so the binary representation of 1729 is <code>11011000001</code>. Lets do another, this time 7. This one is rather easy since its just 4 + 2 + 1, which means the binary representation is <code>111</code>. Cool stuff!</p>
+
+<p>Another thing Eloquent JavaScript has clicked for me is the max values of <em>integers</em>, or the <em>number</em> type as its referred to in the book. In programming languages there are different types of integers ranging from int8 to normally int64. The max value of the int8 data type is 2<sup>8</sup> - 1, 2<sup>16</sup> - 1 for the int16, and so on up to 2<sup>64</sup> - 1 for int64. This is of course only if the integer is <a href="https://en.wikipedia.org/wiki/Integer_(computer_science)#Common_integral_data_types"><em>unsigned</em></a>.</p>
+
+<p>Something that I found rather interesting is the three <em>special numbers</em> in JavaScript <code>infinity</code>, <code>-infinity</code>, and <code>NaN</code>. I&rsquo;ve come across <code>NaN</code> or <em>not a number</em> before, but not <code>infinity</code>/<code>-infinity</code>. After a quick search I found that the <code>infinity</code> value is used when a &ldquo;number exceeds the upper limit of the floating point number which is 1.797693134862315E+308&rdquo;. <a href="https://www.w3schools.com/jsref/jsref_infinity.asp">[source]</a> The same goes for a number lower than -1.797693134862316E+308. The book does note not to trust it in infinity-based computation as it isn&rsquo;t mathematically sound and leads to <code>NaN</code>.</p>
+
+<p>Strings in JavaScript are syntactically similar to Python in the ability to use either <code>&quot;valid&quot;</code> or <code>'valid'</code>, but differs in also having backticks being valid for strings. Not very surprising as JavaScript is also an <a href="https://en.wikipedia.org/wiki/Interpreted_language">interpreted language</a>. One thing I never liked about JavaScript was how it handles string concatenation. An example is as follows.</p>
+
+<pre><code class="language-JavaScript">console.log(&quot;this &quot; + &quot;looks &quot; + &quot;ugly&quot;);
+</code></pre>
+
+<p>Fortunately there is a cleaner way in the form of <em>template literals</em>, but this is only available when using backticks for strings. An example of this is as follows.</p>
+
+<pre><code class="language-JavaScript">let better = &quot;cleaner&quot;;
+
+console.log(`this looks ${better}`);
+</code></pre>
+
+<p>The next topic covered in this chapter is <em>unary operators</em>, which I&rsquo;ve come across, but have never known the name until now. The example the book uses is <code>typeof</code> in JavaScript, but one that I know from C is the <code>++</code> and <code>--</code> operators. An interesting distinction the book makes is that <em>binary operators</em> are operators that use two values, where as <em>unary operators</em> only use one.</p>
+
+<p>Another cool operator that I&rsquo;ve seen before but have never learned about is the <em>ternary operator</em> <code>?</code>. Though it may look confusing, in my opinion is an elegant way of combining a conditional operator with two possible outputs. An example of the <code>?</code> operator in action is as follows.</p>
+
+<pre><code class="language-JavaScript">console.log(10 &gt; 5 ? true : false); // outputs true
+
+console.log(1 &gt; 5 ? true : false; // outputs false
+</code></pre>
+
+<p><em>Spicy</em>.</p>
+
+<p>An oddity in JavaScript is it&rsquo;s <em>automatic type conversion</em>. The book&rsquo;s examples of this are as follows.</p>
+
+<pre><code class="language-JavaScript">console.log(8 * null); // outputs 0
+
+console.log(&quot;5&quot; - 1); // outputs 4
+
+console.log(&quot;5&quot; + 1); // outputs 51
+
+console.log(&quot;five&quot; * 2); // outputs NaN
+
+console.log(false == 0); // true
+</code></pre>
+
+<p>Apperantly JavaScript will convert a value to a needed type using a set of rules if an operator is applied to the &ldquo;wrong&rdquo; type of value. This is <em>type coercion</em>. Enter the operator unique to JavaScript;<code>===</code>. The <code>===</code> operator is exactly the same as <code>==</code> except it does not apply type coercion, instead it checks to see if the <em>types</em> are equivalent. An example of this is as follows.</p>
+
+<pre><code class="language-JavaScript">console.log(false == 0); // outputs same as above; true
+
+console.log(false === 0); // outputs false
+</code></pre>
+
+<p>The final section of chapter 1 covers <em>short-circuit evaluation</em>, which is something I&rsquo;ve multiple times but have never known the name for it until now. These are the <code>||</code> and <code>&amp;&amp;</code> operators.</p>
+
+<p>That&rsquo;s it for chapter 1 and this blog! To finish off I will write the classical <em>hello world!</em> in Javascript.</p>
+
+<pre><code class="language-JavaScript">console.log(&quot;Hello world!);
+</code></pre>
+</div>
+
+    
+    
+
+    
+
+        <h4 class="page-header">Related</h4>
+
+         <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/c-0/">hello_c.c</a></h4>
+    <h5>April 20, 2020</h5>
+    
+    <a href="https://oglinuk.github.io/tags/hello-world"><kbd class="item-tag">Hello World</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/c"><kbd class="item-tag">C</kbd></a>
+    
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/cpp-0/">hello_c&#43;&#43;.cpp</a></h4>
+    <h5>July 21, 2019</h5>
+    
+    <a href="https://oglinuk.github.io/tags/hello-world"><kbd class="item-tag">Hello World</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/c&#43;&#43;"><kbd class="item-tag">C&#43;&#43;</kbd></a>
+    
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/rust-0/">hello_rust.rs</a></h4>
+    <h5>March 14, 2019</h5>
+    
+    <a href="https://oglinuk.github.io/tags/hello-world"><kbd class="item-tag">Hello World</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/rust"><kbd class="item-tag">Rust</kbd></a>
+    
+
+</div>
+ 
+
+    
+
+    
+
+        <h4 class="page-header">Comments</h4>
+
+        <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "oglinuk-github-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a></p>
+
+        </footer>
+       
+    </body>
+
+</html>
+

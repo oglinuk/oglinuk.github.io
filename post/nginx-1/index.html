@@ -158,9 +158,9 @@
 <p>In the <a href="/post/nginx-0">previous blog</a> we explored serving a Go web application with <a href="https://nginx.com">Nginx</a> on <a href="https://digitalocean.com">Digital Ocean</a>.
 This blog is going to cover how to host a static website on a subdomain. One of the things I did not cover in the last blog is how to point to your domain name with Digital Ocean. For more on this please refer to <a href="https://www.digitalocean.com/community/tutorials/how-to-point-to-digitalocean-nameservers-from-common-domain-registrars">this blog</a> that I found/used originally.</p>
 
-<p>The first thing to do is create another droplet. There might be a way to host the static website on the same droplet, but I have not figured that out yet. Once you have your droplet running and up-to-date, install Nginx via <code>sudo apt install nginx</code>. After you&rsquo;ve installed Nginx, copy over your static site using an <code>scp</code> or <code>rsync</code> command. If you&rsquo;re wondering what the difference between the two like I did, you can refer to <a href="https://unix.stackexchange.com/a/39719">this stackexchange answer</a>. I copied my static website to the <code>/var/www</code> directory, but you can choose to store it wherever you would like, just make sure you use that same path in the Nginx configuration.</p>
+<p>The first thing to do is copy over your static site using an <code>scp</code> or <code>rsync</code> command. If you&rsquo;re wondering what the difference between the two like I did, you can refer to <a href="https://unix.stackexchange.com/a/39719">this stackexchange answer</a>. I copied my static website to the <code>/var/www</code> directory, but you can choose to store it wherever you would like, just make sure you use that same path in the Nginx configuration.</p>
 
-<p>The next thing to do is create a Nginx server block file in <code>/etc/nginx/sites-available</code>. Add the following to the file.</p>
+<p>The next thing to do is create another Nginx server block file in <code>/etc/nginx/sites-available</code>. Add the following to the file.</p>
 
 <pre><code>server {
 	root /var/www/fourohfournotfound;

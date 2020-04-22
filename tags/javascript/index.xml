@@ -6,6 +6,7 @@
     <description>Recent content in Javascript on Ponte Posterum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 22 Apr 2020 17:25:41 +1200</lastBuildDate>
     
 	<atom:link href="https://oglinuk.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,6 +18,15 @@
       
       <guid>https://oglinuk.github.io/project/ptp/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>hello_js.js</title>
+      <link>https://oglinuk.github.io/post/javascript-0/</link>
+      <pubDate>Wed, 22 Apr 2020 17:25:41 +1200</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/javascript-0/</guid>
+      <description>JavaScript JavaScript is everywhere. Along side HTML and CSS, JavaScript is what powers most websites on the world wide web. I&amp;rsquo;ve known the very basics of JavaScript for a while now, but have never really spent time to learn it more than just simple functionality. For my learnings, I will be using another resource that was suggested by rwxrob called Eloquent JavaScript, which was written by yet another amazing human being; Marijn Haverbeke.</description>
     </item>
     
   </channel>
