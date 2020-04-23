@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Web Development</title>
+        <title>Nginx 2</title>
         
         <style>
 
@@ -61,9 +61,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.40.1" />
         
-        <link href="https://oglinuk.github.io/tags/web-development/index.xml" rel="alternate" type="application/rss+xml" title="Ponte Posterum" />
-        <link href="https://oglinuk.github.io/tags/web-development/index.xml" rel="feed" type="application/rss+xml" title="Ponte Posterum" />
-        
 
         
     </head>
@@ -83,7 +80,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Web Development</a>
+                    <a class="navbar-brand visible-xs" href="#">Nginx 2</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -130,9 +127,7 @@
 
 <main>
 
-    <h2>Web Development</h2>
-
-     <div class="item">
+    <div class="item">
 
     
     
@@ -154,7 +149,95 @@
     
 
 </div>
-  <div class="item">
+
+
+    <br> <div class="text-justify">
+
+<h1 id="nginx-enabling-https">Nginx ~ Enabling HTTPS</h1>
+
+<p>In the <a href="/post/nginx-1">previous nginx blog</a> I covered how to host a static website on the droplet that also serves my simple Go web application. This blog is going to cover how to enable HTTPS via <a href="https://letsencrypt.org/">LetsEncrypt</a> for the site. I am going to be following a medium blog by <a href="https://medium.com/@jgefroh/a-guide-to-using-nginx-for-static-website-d96a9d034940">jgefroh</a>. Since I already have the site up and running I am going to skip most of the content leading up to enabling HTTPS.</p>
+
+<p>The first thing to do is to install <a href="https://github.com/certbot/certbot">certbot</a> via the following commands.</p>
+
+<pre><code class="language-BASH">sudo apt install software-properties-common
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt update
+sudo apt install python-certbot-nginx
+</code></pre>
+
+<p>Then to run certbot via <code>sudo certbot --nginx</code> and follow the setup.</p>
+
+<p>One reason I like jgefroh&rsquo;s blog in particular is because he covers how to setup auto-renewal via <a href="https://en.wikipedia.org/wiki/Cron">cron</a>. According to the <a href="https://letsencrypt.org/docs/faq/#a-id-technical-technical-questions-a">Let&rsquo;s Encrypt FAQ page</a>, certificates are valid for 90 days, but they recommend renewing certificates every 60 days. To add a new job to for cron execute <code>sudo crontab -e</code>. Then add the following.</p>
+
+<pre><code>0 0 1 * * certbot renew --post-hook &quot;systemctl reload nginx&quot;
+</code></pre>
+
+<p>The above will renew the certificate every month.</p>
+
+<hr>
+
+<p>Now that the certificate is ready and the renewal is in place, it&rsquo;s time configure nginx. Inside the server block add the following.</p>
+
+<pre><code>server {
+	listen 443 default_server;
+	listen [::]:443 default_server;
+
+	# content ...
+
+	ssl on;
+	ssl_certificate /etc/letsencrypt/live/fourohfournotfound.com/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/fourohfournotfound.com/privkey.pem;
+}
+</code></pre>
+
+<p>Then to redirect any HTTP requests to HTTPS by adding another server block below the server block with the ssl configuration. This server block will look like the following.</p>
+
+<pre><code>server {
+	listen 80;
+
+	server_name fourohfournotfound.com www.fourohfournotfound.com;
+
+	rewrite ^ https://$host$request_uri? permanent;
+}
+</code></pre>
+
+<p>Finally to run <code>sudo nginx -s reload</code> and to test by going to <a href="http://fourohfournotfound.com">http://fourohfournotfound.com</a>.</p>
+
+<hr>
+
+<p>Since I have my blog as a subdomain there is one last thing to do, which is adding the ssl configuration to the <code>blog.fourohfournotfound.com</code> nginx configuration file. Everything is the same except for the <code>listen</code> line. The only difference is not having <code>default_server</code>. The file looks like the following.</p>
+
+<pre><code>server {
+	listen 443; # only difference
+	listen [::]:443; # only difference
+
+	# content ...
+
+	ssl on;
+	ssl_certificate /etc/letsencrypt/live/fourohfournotfound.com/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/fourohfournotfound.com/privkey.pem;
+}
+
+server {
+	listen 80;
+
+	server_name blog.fourohfournotfound.com www.blog.fourohfournotfound.com;
+
+	rewrite ^ https://$host$request_uri? permanent;
+}
+</code></pre>
+
+<p><strong><em>Spicy</em></strong>.</p>
+</div>
+
+    
+    
+
+    
+
+        <h4 class="page-header">Related</h4>
+
+         <div class="item">
 
     
     
@@ -200,11 +283,66 @@
     
 
 </div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/web701-22/">Web701 22</a></h4>
+    <h5>June 15, 2019</h5>
+    
+    <a href="https://oglinuk.github.io/tags/web701"><kbd class="item-tag">Web701</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/serverless"><kbd class="item-tag">Serverless</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/openfaas"><kbd class="item-tag">OpenFaas</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/docker"><kbd class="item-tag">Docker</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/cli"><kbd class="item-tag">CLI</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/python"><kbd class="item-tag">Python</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/digital-ocean"><kbd class="item-tag">Digital Ocean</kbd></a>
+    
+
+</div>
  
 
+    
+
+    
+
+        <h4 class="page-header">Comments</h4>
+
+        <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "oglinuk-github-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+
 </main>
-
-
 
         <footer>
 

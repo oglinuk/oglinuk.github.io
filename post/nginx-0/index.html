@@ -179,14 +179,16 @@ Description=iseeyou
 Type=simple
 Restart=always
 RestartSec=5s
-ExecStart=/home/iseeyou/iseeyou
+ExecStart=/root/iseeyou/iseeyou
+StandardOutput=syslog
+StandardError=syslog
 
 [Install]
 WantedBy=multi-user.target
 </code></pre>
 
 <p>There was an issue with <code>tpl = template.Must(template.ParseGlob(&quot;templates/*&quot;))</code>, and I
-didn&rsquo;t dig into it much, but fixed my changing the path to <code>&quot;/home/iseeyou/templates/*&quot;</code>. My assumption is the service looks for a <code>templates</code> dir within <code>/lib/systemd/system</code> where the <code>iseeyou.service</code> file is.</p>
+didn&rsquo;t dig into it much, but fixed my changing the path to <code>&quot;/root/iseeyou/templates/*&quot;</code>. My assumption is the service looks for a <code>templates</code> dir within <code>/lib/systemd/system</code> where the <code>iseeyou.service</code> file is.</p>
 
 <hr>
 
@@ -197,6 +199,9 @@ didn&rsquo;t dig into it much, but fixed my changing the path to <code>&quot;/ho
 
 	location / {
 		proxy_pass http://localhost:&lt;YOUR SERVERS PORT&gt;;
+		proxy_set_header Host $host;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 	}
 }
 </code></pre>
@@ -213,7 +218,7 @@ didn&rsquo;t dig into it much, but fixed my changing the path to <code>&quot;/ho
 
 <hr>
 
-<p>Goto <code>http://fourohfournotfound.com</code> and enjoy!</p>
+<p>Goto <a href="http://fourohfournotfound.com">fourohfournotfound.com</a> and enjoy!</p>
 </div>
 
     
@@ -224,6 +229,28 @@ didn&rsquo;t dig into it much, but fixed my changing the path to <code>&quot;/ho
         <h4 class="page-header">Related</h4>
 
          <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/nginx-2/">Nginx 2</a></h4>
+    <h5>April 23, 2020</h5>
+    
+    <a href="https://oglinuk.github.io/tags/nginx"><kbd class="item-tag">Nginx</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/digital-ocean"><kbd class="item-tag">Digital Ocean</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/https"><kbd class="item-tag">HTTPS</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/web-development"><kbd class="item-tag">Web Development</kbd></a>
+    
+
+</div>
+  <div class="item">
 
     
     
@@ -268,26 +295,6 @@ didn&rsquo;t dig into it much, but fixed my changing the path to <code>&quot;/ho
     <a href="https://oglinuk.github.io/tags/golang"><kbd class="item-tag">Golang</kbd></a>
     
     <a href="https://oglinuk.github.io/tags/open-source"><kbd class="item-tag">Open Source</kbd></a>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/goccer-0/">Goccer 0</a></h4>
-    <h5>September 2, 2019</h5>
-    
-    <a href="https://oglinuk.github.io/tags/golang"><kbd class="item-tag">Golang</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/concurrency"><kbd class="item-tag">Concurrency</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/web-crawling"><kbd class="item-tag">Web Crawling</kbd></a>
     
 
 </div>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Https on Ponte Posterum</title>
+    <link>https://oglinuk.github.io/tags/https/</link>
+    <description>Recent content in Https on Ponte Posterum</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Apr 2020 17:51:34 +1200</lastBuildDate>
+    
+	<atom:link href="https://oglinuk.github.io/tags/https/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nginx 2</title>
+      <link>https://oglinuk.github.io/post/nginx-2/</link>
+      <pubDate>Thu, 23 Apr 2020 17:51:34 +1200</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/nginx-2/</guid>
+      <description>Nginx ~ Enabling HTTPS In the previous nginx blog I covered how to host a static website on the droplet that also serves my simple Go web application. This blog is going to cover how to enable HTTPS via LetsEncrypt for the site. I am going to be following a medium blog by jgefroh. Since I already have the site up and running I am going to skip most of the content leading up to enabling HTTPS.</description>
+    </item>
+    
+  </channel>
+</rss>

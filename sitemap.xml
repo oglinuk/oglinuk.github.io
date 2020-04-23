@@ -11,6 +11,11 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/post/nginx-2/</loc>
+    <lastmod>2020-04-23T17:51:34+12:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/post/javascript-0/</loc>
     <lastmod>2020-04-22T17:25:41+12:00</lastmod>
   </url>
@@ -582,7 +587,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/digital-ocean/</loc>
-    <lastmod>2020-04-13T11:34:19+12:00</lastmod>
+    <lastmod>2020-04-23T17:51:34+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -671,6 +676,12 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/tags/https/</loc>
+    <lastmod>2020-04-23T17:51:34+12:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/tags/information-architecture/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -750,7 +761,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/nginx/</loc>
-    <lastmod>2020-04-13T11:34:19+12:00</lastmod>
+    <lastmod>2020-04-23T17:51:34+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -816,7 +827,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/</loc>
-    <lastmod>2020-04-22T17:25:41+12:00</lastmod>
+    <lastmod>2020-04-23T17:51:34+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -828,7 +839,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/post/</loc>
-    <lastmod>2020-04-22T17:25:41+12:00</lastmod>
+    <lastmod>2020-04-23T17:51:34+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -995,7 +1006,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/web-development/</loc>
-    <lastmod>2020-04-13T11:34:19+12:00</lastmod>
+    <lastmod>2020-04-23T17:51:34+12:00</lastmod>
     <priority>0</priority>
   </url>
   
