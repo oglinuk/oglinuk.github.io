@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Linux</title>
+        <title>Shell 2</title>
         
         <style>
 
@@ -61,9 +61,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.40.1" />
         
-        <link href="https://oglinuk.github.io/tags/linux/index.xml" rel="alternate" type="application/rss+xml" title="Ponte Posterum" />
-        <link href="https://oglinuk.github.io/tags/linux/index.xml" rel="feed" type="application/rss+xml" title="Ponte Posterum" />
-        
 
         
     </head>
@@ -83,7 +80,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Linux</a>
+                    <a class="navbar-brand visible-xs" href="#">Shell 2</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -130,9 +127,7 @@
 
 <main>
 
-    <h2>Linux</h2>
-
-     <div class="item">
+    <div class="item">
 
     
     
@@ -141,14 +136,56 @@
     
     
 
-    <h4><a href="/post/alacritty-0/">Alacritty 0</a></h4>
-    <h5>April 11, 2020</h5>
-    
-    <a href="https://oglinuk.github.io/tags/alacrity"><kbd class="item-tag">Alacrity</kbd></a>
+    <h4><a href="/post/shell-2/">Shell 2</a></h4>
+    <h5>April 20, 2020</h5>
     
     <a href="https://oglinuk.github.io/tags/linux"><kbd class="item-tag">Linux</kbd></a>
     
-    <a href="https://oglinuk.github.io/tags/rust"><kbd class="item-tag">Rust</kbd></a>
+    <a href="https://oglinuk.github.io/tags/shell"><kbd class="item-tag">Shell</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/open-source"><kbd class="item-tag">Open Source</kbd></a>
+    
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+<h1 id="linux-shell">Linux Shell</h1>
+
+<p>Chapter 2 of <a href="http://www.linuxcommand.org/tlcl.php">The Linux Command Line</a> covers <em>navigation</em>. The commands explored in this chapter are <code>pwd</code> (print working directory), <code>cd</code> (change directory), and <code>ls</code> (list directory contents). I use <code>cd</code> and <code>ls</code> daily, but I don&rsquo;t often use <code>pwd</code>. The structure of the Linux filesystem follows the <a href="https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard"><em>Filesystem Hierarchy Standard (FHS)</em></a>, meaning the filesystem is organized in a tree-like form of <em>directories</em>, which can contain files and other directories. The very base directory is called the <em>root directory</em>.</p>
+
+<p>When working in the terminal emulator, we are always in a directory (usually somewhere in the <em>home</em> directory). This is called the <em>current working directory</em>. The current working directory can be viewed using the <em>print working directory</em> or <code>pwd</code> command. The contents of the current working directory can be viewed by using the <em>list directory contents</em> or <code>ls</code> command. An important note to remember about the <code>ls</code> command is that it is able to be used on <em>any</em> directory, not just the current working directory. To change the current working directory we use the <em>change directory</em> or <code>cd</code> command. The <code>cd</code> command is followed by the path to the target directory that you are wanting to change to. You can specify paths one of two ways; <em>relative</em> or <em>absolute</em>.</p>
+
+<p><em>Relative</em> paths are just as the name suggests, pathnames that are <em>relative to the current working directory</em>. When working with relative paths there are two special notations that can be used to assist the pathing; <code>.</code> and <code>..</code>. The <code>.</code> notation refers to the current working directory, and the <code>..</code> notation refers to the <em>parent directory</em>. <em>Absolute</em> paths are pathnames to a location <em>regardless of the current working directory</em>. An absolute path starts with the root directory and follows the layout until the desired directory is reached. An example of an absolute path looks like <code>/etc/systemd/system</code>, where <code>system</code> would be the destination directory.</p>
+
+<p>Some important things to remember are first that <em>names are case sensitive</em> in Linux, so <code>/home/Desktop</code> will be a completely different directory than <code>/home/desktop</code>. Likewise with files, <code>hello.txt</code> will be a different file than <code>Hello.txt</code>. Second there are hidden files and directory that start with a <code>.</code>, such as <code>~/.ssh/</code> or <code>~/.bashrc</code>. Third Linux supports filenames and directories with spaces, but please <em>never embed spaces in names</em>. Save your sanity. Instead I suggest using an underscore or hyphen.</p>
+
+<p>Something that I learned from this chapter is <code>cd -</code>, which changes to the previous working directory. <em>Epic</em>.</p>
+</div>
+
+    
+    
+
+    
+
+        <h4 class="page-header">Related</h4>
+
+         <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/shell-1/">Shell 1</a></h4>
+    <h5>April 19, 2020</h5>
+    
+    <a href="https://oglinuk.github.io/tags/linux"><kbd class="item-tag">Linux</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/shell"><kbd class="item-tag">Shell</kbd></a>
     
     <a href="https://oglinuk.github.io/tags/open-source"><kbd class="item-tag">Open Source</kbd></a>
     
@@ -163,14 +200,12 @@
     
     
 
-    <h4><a href="/post/vim-0/">Vim 0</a></h4>
-    <h5>April 4, 2020</h5>
-    
-    <a href="https://oglinuk.github.io/tags/vim"><kbd class="item-tag">Vim</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/c"><kbd class="item-tag">C</kbd></a>
+    <h4><a href="/post/shell-0/">Shell 0</a></h4>
+    <h5>April 19, 2020</h5>
     
     <a href="https://oglinuk.github.io/tags/linux"><kbd class="item-tag">Linux</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/shell"><kbd class="item-tag">Shell</kbd></a>
     
     <a href="https://oglinuk.github.io/tags/open-source"><kbd class="item-tag">Open Source</kbd></a>
     
@@ -185,64 +220,12 @@
     
     
 
-    <h4><a href="/post/omega2-0/">Omega2 0</a></h4>
-    <h5>October 19, 2019</h5>
-    
-    <a href="https://oglinuk.github.io/tags/hardware"><kbd class="item-tag">Hardware</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/openwrt"><kbd class="item-tag">OpenWRT</kbd></a>
+    <h4><a href="/post/arch-0/">Arch 0</a></h4>
+    <h5>April 15, 2020</h5>
     
     <a href="https://oglinuk.github.io/tags/linux"><kbd class="item-tag">Linux</kbd></a>
     
-    <a href="https://oglinuk.github.io/tags/networking"><kbd class="item-tag">Networking</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/golang"><kbd class="item-tag">Golang</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/open-source"><kbd class="item-tag">Open Source</kbd></a>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/doom-0/">Doom 0</a></h4>
-    <h5>September 22, 2019</h5>
-    
-    <a href="https://oglinuk.github.io/tags/doom"><kbd class="item-tag">DOOM</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/c&#43;&#43;"><kbd class="item-tag">C&#43;&#43;</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/linux"><kbd class="item-tag">Linux</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/open-source"><kbd class="item-tag">Open Source</kbd></a>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/ai-0/">Ai 0</a></h4>
-    <h5>September 3, 2019</h5>
-    
-    <a href="https://oglinuk.github.io/tags/ai"><kbd class="item-tag">AI</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/deep-learning"><kbd class="item-tag">Deep Learning</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/machine-learning"><kbd class="item-tag">Machine Learning</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/linux"><kbd class="item-tag">Linux</kbd></a>
+    <a href="https://oglinuk.github.io/tags/arch"><kbd class="item-tag">Arch</kbd></a>
     
     <a href="https://oglinuk.github.io/tags/open-source"><kbd class="item-tag">Open Source</kbd></a>
     
@@ -250,25 +233,36 @@
 </div>
  
 
+    
+
+    
+
+        <h4 class="page-header">Comments</h4>
+
+        <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "oglinuk-github-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+
 </main>
-
-
-
-<div class="pages">
-
-    
-    <a class="icon pages-icon" href="/tags/linux/" rel="prev">
-        <i class="fa fa-arrow-left"></i>
-    </a>
-     
-    <a class="icon pages-icon" href="/tags/linux/page/3/" rel="next">
-        <i class="fa fa-arrow-right"></i>
-    </a>
-    
-
-</div>
-
-
 
         <footer>
 

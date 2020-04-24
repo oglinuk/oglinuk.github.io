@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>Shell 2</title>
+      <link>https://oglinuk.github.io/post/shell-2/</link>
+      <pubDate>Mon, 20 Apr 2020 18:34:05 +1200</pubDate>
+      
+      <guid>https://oglinuk.github.io/post/shell-2/</guid>
+      <description>Linux Shell Chapter 2 of The Linux Command Line covers navigation. The commands explored in this chapter are pwd (print working directory), cd (change directory), and ls (list directory contents). I use cd and ls daily, but I don&amp;rsquo;t often use pwd. The structure of the Linux filesystem follows the Filesystem Hierarchy Standard (FHS), meaning the filesystem is organized in a tree-like form of directories, which can contain files and other directories.</description>
+    </item>
+    
+    <item>
       <title>hello_c.c</title>
       <link>https://oglinuk.github.io/post/c-0/</link>
       <pubDate>Mon, 20 Apr 2020 18:33:38 +1200</pubDate>
