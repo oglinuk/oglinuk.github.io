@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Shell 2</title>
+        <title>Vim 1</title>
         
         <style>
 
@@ -80,7 +80,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Shell 2</a>
+                    <a class="navbar-brand visible-xs" href="#">Vim 1</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -136,12 +136,14 @@
     
     
 
-    <h4><a href="/post/shell-2/">Shell 2</a></h4>
-    <h5>April 20, 2020</h5>
+    <h4><a href="/post/vim-1/">Vim 1</a></h4>
+    <h5>April 25, 2020</h5>
+    
+    <a href="https://oglinuk.github.io/tags/vim"><kbd class="item-tag">Vim</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/c"><kbd class="item-tag">C</kbd></a>
     
     <a href="https://oglinuk.github.io/tags/linux"><kbd class="item-tag">Linux</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/shell"><kbd class="item-tag">Shell</kbd></a>
     
     <a href="https://oglinuk.github.io/tags/open-source"><kbd class="item-tag">Open Source</kbd></a>
     
@@ -151,17 +153,25 @@
 
     <br> <div class="text-justify">
 
-<h1 id="linux-shell">Linux Shell</h1>
+<h1 id="vim-vimtutor-lesson-1">Vim ~ Vimtutor Lesson 1</h1>
 
-<p>Chapter 2 of <a href="http://www.linuxcommand.org/tlcl.php">The Linux Command Line</a> covers <em>navigation</em>. The commands explored in this chapter are <code>pwd</code> (print working directory), <code>cd</code> (change directory), and <code>ls</code> (list directory contents). I use <code>cd</code> and <code>ls</code> daily, but I don&rsquo;t often use <code>pwd</code>. The structure of the Linux filesystem follows the <a href="https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard"><em>Filesystem Hierarchy Standard (FHS)</em></a>, meaning the filesystem is organized in a tree-like form of <em>directories</em>, which can contain files and other directories. The very base directory is called the <em>root directory</em>.</p>
+<p>One of the amazing things about <a href="https://github.com/vim/vim">Vim</a>, is that it comes with an interactive tutorial called <code>vimtutor</code>. As the tutorial states, it &ldquo;is designed to describe enough of the commands that you will be able to easily use Vim as an all-purpose editor&rdquo;. It also states &ldquo;this tutor is set up to teach by use. That means that you need to execute the commands to learn them properly. If you only read the text, you will forget the commands!&rdquo;</p>
 
-<p>When working in the terminal emulator, we are always in a directory (usually somewhere in the <em>home</em> directory). This is called the <em>current working directory</em>. The current working directory can be viewed using the <em>print working directory</em> or <code>pwd</code> command. The contents of the current working directory can be viewed by using the <em>list directory contents</em> or <code>ls</code> command. An important note to remember about the <code>ls</code> command is that it is able to be used on <em>any</em> directory, not just the current working directory. To change the current working directory we use the <em>change directory</em> or <code>cd</code> command. The <code>cd</code> command is followed by the path to the target directory that you are wanting to change to. You can specify paths one of two ways; <em>relative</em> or <em>absolute</em>.</p>
+<p>Let&rsquo;s get into it!</p>
 
-<p><em>Relative</em> paths are just as the name suggests, pathnames that are <em>relative to the current working directory</em>. When working with relative paths there are two special notations that can be used to assist the pathing; <code>.</code> and <code>..</code>. The <code>.</code> notation refers to the current working directory, and the <code>..</code> notation refers to the <em>parent directory</em>. <em>Absolute</em> paths are pathnames to a location <em>regardless of the current working directory</em>. An absolute path starts with the root directory and follows the layout until the desired directory is reached. An example of an absolute path looks like <code>/etc/systemd/system</code>, where <code>system</code> would be the destination directory.</p>
+<p>Lesson 1.1 is <strong><em>moving the cursor</em></strong> around within Vim. There are two ways of moving the cursor; <code>h</code> (left), <code>j</code> (down), <code>k</code> (up), <code>l</code> (right) and the arrow keys. The tutor notes that if you use <code>hjkl</code> you will be able to move around much faster.</p>
 
-<p>Some important things to remember are first that <em>names are case sensitive</em> in Linux, so <code>/home/Desktop</code> will be a completely different directory than <code>/home/desktop</code>. Likewise with files, <code>hello.txt</code> will be a different file than <code>Hello.txt</code>. Second there are hidden files and directory that start with a <code>.</code>, such as <code>~/.ssh/</code> or <code>~/.bashrc</code>. Third Linux supports filenames and directories with spaces, but please <em>never embed spaces in names</em>. Save your sanity. Instead I suggest using an underscore or hyphen.</p>
+<p>Lesson 1.2 is <strong><em>exiting</em></strong> Vim, which when I first heard about Vim, it was through a joke about opening Vim and getting non-vim users to try and exit it. To exit Vim <em>without saving any changes</em> press <code>esc</code>, then type <code>:q</code>. You can force the command by adding <code>!</code>, which looks like <code>:q!</code>.</p>
 
-<p>Something that I learned from this chapter is <code>cd -</code>, which changes to the previous working directory. <em>Epic</em>.</p>
+<p>Lesson 1.3 is <strong><em>deletion</em></strong>. To delete a character, hover over it and press <code>x</code>.</p>
+
+<p>Lesson 1.4 is <strong><em>insertion</em></strong>. To insert text press <code>i</code> to enter <em>insert mode</em>.</p>
+
+<p>Lesson 1.5 is <strong><em>appending</em></strong>. To append text to the end of a line, press <code>A</code>.</p>
+
+<p>Lesson 1.6 is <strong><em>editing a file</em></strong>. After making changes to a file, when you want to exit Vim and <em>keep the changes</em> (unlike in lesson 1.2, where it exits without saving changes), press <code>esc</code> then execute <code>:wq</code>.</p>
+
+<p>That&rsquo;s it for the first lesson in the <code>vimtutor</code>!</p>
 </div>
 
     
@@ -180,30 +190,8 @@
     
     
 
-    <h4><a href="/post/vim-1/">Vim 1</a></h4>
-    <h5>April 25, 2020</h5>
-    
-    <a href="https://oglinuk.github.io/tags/vim"><kbd class="item-tag">Vim</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/c"><kbd class="item-tag">C</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/linux"><kbd class="item-tag">Linux</kbd></a>
-    
-    <a href="https://oglinuk.github.io/tags/open-source"><kbd class="item-tag">Open Source</kbd></a>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/shell-1/">Shell 1</a></h4>
-    <h5>April 19, 2020</h5>
+    <h4><a href="/post/shell-2/">Shell 2</a></h4>
+    <h5>April 20, 2020</h5>
     
     <a href="https://oglinuk.github.io/tags/linux"><kbd class="item-tag">Linux</kbd></a>
     
@@ -222,7 +210,25 @@
     
     
 
-    <h4><a href="/post/shell-0/">Shell 0</a></h4>
+    <h4><a href="/post/c-0/">hello_c.c</a></h4>
+    <h5>April 20, 2020</h5>
+    
+    <a href="https://oglinuk.github.io/tags/hello-world"><kbd class="item-tag">Hello World</kbd></a>
+    
+    <a href="https://oglinuk.github.io/tags/c"><kbd class="item-tag">C</kbd></a>
+    
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/shell-1/">Shell 1</a></h4>
     <h5>April 19, 2020</h5>
     
     <a href="https://oglinuk.github.io/tags/linux"><kbd class="item-tag">Linux</kbd></a>

@@ -11,6 +11,11 @@
   </url>
   
   <url>
+    <loc>https://oglinuk.github.io/post/vim-1/</loc>
+    <lastmod>2020-04-25T11:53:50+12:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oglinuk.github.io/post/nginx-2/</loc>
     <lastmod>2020-04-23T17:51:34+12:00</lastmod>
   </url>
@@ -509,7 +514,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/c/</loc>
-    <lastmod>2020-04-20T18:33:38+12:00</lastmod>
+    <lastmod>2020-04-25T11:53:50+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -730,7 +735,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/linux/</loc>
-    <lastmod>2020-04-20T18:34:05+12:00</lastmod>
+    <lastmod>2020-04-25T11:53:50+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -790,7 +795,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/open-source/</loc>
-    <lastmod>2020-04-20T18:34:05+12:00</lastmod>
+    <lastmod>2020-04-25T11:53:50+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -832,7 +837,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/</loc>
-    <lastmod>2020-04-23T17:51:34+12:00</lastmod>
+    <lastmod>2020-04-25T11:53:50+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -844,7 +849,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/post/</loc>
-    <lastmod>2020-04-23T17:51:34+12:00</lastmod>
+    <lastmod>2020-04-25T11:53:50+12:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -987,7 +992,7 @@
   
   <url>
     <loc>https://oglinuk.github.io/tags/vim/</loc>
-    <lastmod>2020-04-04T08:27:35+12:00</lastmod>
+    <lastmod>2020-04-25T11:53:50+12:00</lastmod>
     <priority>0</priority>
   </url>
   
